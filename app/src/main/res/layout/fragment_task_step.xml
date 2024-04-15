@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/example_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_white_radius8"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="@string/here_an_example"
+                android:textAlignment="center"
+                android:textColor="@color/color_06" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/img_step" />
+
+            <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="@string/here_an_example_step"
+                android:textAlignment="center"
+                android:textColor="@color/color_06" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.NumberEquationsView
+            android:id="@+id/numberPicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_white_radius8"
+            app:currentValue="1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/example_layout"
+            app:mTitle="@string/number_of_steps"
+            app:maxValue="100"
+            app:minValue="20" />
+
+        <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.CustomButton
+            android:id="@+id/btnPreview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="8dp"
+            android:autoSizeMaxTextSize="16sp"
+            android:autoSizeTextType="uniform"
+            android:lines="1"
+            android:maxLines="1"
+            android:text="@string/action_preview"
+            android:textSize="16sp"
+            app:btn_type="disable"
+            app:layout_constraintEnd_toStartOf="@+id/btnSave"
+            app:layout_constraintStart_toStartOf="@+id/numberPicker"
+            app:layout_constraintTop_toBottomOf="@+id/numberPicker" />
+
+        <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.CustomButton
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:autoSizeMaxTextSize="16sp"
+            android:autoSizeTextType="uniform"
+            android:lines="1"
+            android:maxLines="1"
+            android:text="@string/action_save"
+            android:textSize="16sp"
+            app:btn_type="primary"
+            app:layout_constraintEnd_toEndOf="@+id/numberPicker"
+            app:layout_constraintStart_toEndOf="@+id/btnPreview"
+            app:layout_constraintTop_toBottomOf="@+id/numberPicker" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- French -->
+	<string name="lg_french">Francês</string>
+
+	<!-- English -->
+	<string name="lg_english">Inglês</string>
+
+	<!-- Hindi -->
+	<string name="lg_hindi">Hindi</string>
+
+	<!-- China -->
+	<string name="lg_china">Chinês</string>
+
+	<!-- Spanish -->
+	<string name="lg_spanish">Espanhol</string>
+
+	<!-- Portuguese -->
+	<string name="lg_portuguese">Português</string>
+
+	<!-- Alarmy -->
+	<string name="app_name">Alarmy</string>
+
+	<!-- Get Started -->
+
+	<!-- Language -->
+	<string name="language">Linguagem</string>
+
+	<!-- Rate Us -->
+	<string name="rate_us">Nos avalie</string>
+
+	<!-- Rate on Google Play -->
+	<string name="rate_on_gg">Você gosta do aplicativo?</string>
+
+	<!-- Oh No! -->
+	<string name="oh_no">Oh não!</string>
+
+	<!-- Amazing! -->
+
+	<!-- We like you too! -->
+	<string name="we_like_you_too">Nós amamos você também!</string>
+
+	<!-- We\'re sorry you had a bad experience. Please leave us some feedback. -->
+	<string name="txt_des_rate_1">Por favor, dê-nos alguns comentários</string>
+
+	<!-- We understand you are not happy with the service you received. Please leave us some feedback. -->
+	<string name="txt_des_rate_2">Por favor, dê-nos alguns comentários</string>
+
+	<!-- We would like the opportunity to investigate your feedback further. -->
+	<string name="txt_des_rate_3">Por favor, dê-nos alguns comentários</string>
+
+	<!-- Thank you so much for the wonderful review. -->
+	<string name="txt_des_rate_4">Obrigado pelo seu feedback</string>
+
+	<!-- Thank you so much for taking the time to leave us your review. -->
+	<string name="txt_des_rate_5">Obrigado pelo seu feedback</string>
+	<string name="txt_des_rate_0">Diga-nos a sua experiência</string>
+	<!-- Permission -->
+
+	<!-- Go -->
+
+	<!-- requires permission to use the {device\'s camera and folder} -->
+	<string name="permission_device">Requer permissão para usar a {câmera e a pasta do dispositivo}</string>
+
+	<!-- Storage -->
+
+	<!-- Camera &amp; Recorder -->
+
+	<!-- Music -->
+	<string name="txt_music">Música</string>
+
+	<!-- Record Audio -->
+
+	<!-- Add Alarm -->
+
+	<!-- Alarm -->
+	<string name="alarm">Alarme</string>
+
+	<!-- Alarm name: -->
+	<string name="alarm_name">Nome do alarme:</string>
+
+	<!-- Enter -->
+	<string name="enter">Digitar</string>
+
+	<!-- MO -->
+	<string name="MO">MO</string>
+
+	<!-- TU -->
+	<string name="TU">TU</string>
+
+	<!-- WE -->
+	<string name="WE">WE</string>
+
+	<!-- TH -->
+	<string name="TH">TH</string>
+
+	<!-- FR -->
+	<string name="FR">FR</string>
+
+	<!-- SA -->
+	<string name="SA">SA</string>
+
+	<!-- SU -->
+	<string name="SU">SU</string>
+
+	<!-- Moday -->
+	<string name="monday">Moday</string>
+
+	<!-- Tuesday -->
+	<string name="Tuesday">Terça-feira</string>
+
+	<!-- Wednesday -->
+	<string name="Wednesday">Quarta-feira</string>
+
+	<!-- Thursday -->
+	<string name="Thursday">Quinta-feira</string>
+
+	<!-- Friday -->
+	<string name="Friday">Sexta-feira</string>
+
+	<!-- Saturday -->
+	<string name="Saturday">Sábado</string>
+
+	<!-- Sunday -->
+	<string name="Sunday">Domingo</string>
+
+	<!-- Task -->
+	<string name="task">Tarefa</string>
+
+	<!-- Alarm sound -->
+	<string name="alarm_sound">Alarme sonoro</string>
+
+	<!-- Snooze -->
+	<string name="snooze">Soneca</string>
+
+	<!-- Default -->
+	<string name="default_">Padrão</string>
+
+	<!-- Working days -->
+	<string name="workingDays">Dias úteis</string>
+
+	<!-- Weekend -->
+	<string name="weekend">Fim de semana</string>
+
+	<!-- Everyday -->
+	<string name="everyDay">Diariamente</string>
+
+	<!-- Bedtime -->
+	<string name="bedtime">Hora de dormir</string>
+
+	<!-- Reminder -->
+	<string name="reminder">Lembretes</string>
+
+	<!-- My day -->
+	<string name="myday">Meu dia</string>
+
+	<!-- Setting -->
+	<string name="setting">Contexto</string>
+
+	<!-- Quick Alarm -->
+	<string name="quick_alarm">Alarme rápido</string>
+
+	<!-- Save -->
+	<string name="save">Salvar</string>
+
+	<!-- Bedtime: -->
+	<string name="bedtime_">Hora de dormir: </string>
+
+	<!-- Sleep sounds -->
+	<string name="sleep_sound">Sons do sono</string>
+
+	<!-- %d m -->
+	<string name="minute">%d m</string>
+
+	<!-- Bedtime settings -->
+	<string name="bedtime_setting">Configurações na hora de dormir</string>
+
+	<!-- Confirm -->
+	<string name="confirm">Confirme</string>
+
+	<!-- Sound timer -->
+	<string name="sound_timer">Timer de som</string>
+
+	<!-- 10 min -->
+
+	<!-- 20 min -->
+
+	<!-- 30 min -->
+
+	<!-- 40 min -->
+
+	<!-- 50 min -->
+
+	<!-- 60 min -->
+
+	<!-- All -->
+	<string name="all">Todos</string>
+
+	<!-- Nature -->
+	<string name="nature">Natureza</string>
+
+	<!-- Meditation -->
+	<string name="meditation">Meditação</string>
+
+	<!-- White music -->
+	<string name="white_music">Música branca</string>
+
+	<!-- ASMR -->
+	<string name="ASMR">ASMR</string>
+
+	<!-- Slightly rain -->
+	<string name="slightly_rain">Ligeiramente chuva</string>
+
+	<!-- Soluble bath salts -->
+	<string name="soluble_bath">Sais de banho solúveis</string>
+
+	<!-- Fireplace -->
+	<string name="fireplace">Lareira</string>
+
+	<!-- Light white noise -->
+	<string name="light_white_noise">Ruído branco claro</string>
+
+	<!-- Type the keyboard -->
+	<string name="type_the_keyboard">Digite o teclado</string>
+
+	<!-- Waves -->
+	<string name="wave">Ondas</string>
+
+	<!-- Moderate rain -->
+	<string name="moderate_rain">Chuva moderada</string>
+
+	<!-- River in the forest -->
+	<string name="river_in_forest">Rio na floresta</string>
+
+	<!-- Heavy rain -->
+	<string name="heavy_rain_1">Chuva pesada</string>
+
+	<!-- Heavy rain -->
+	<string name="heavy_rain_2">Chuva pesada</string>
+
+	<!-- Temple bell -->
+	<string name="temple_bell">Bell do templo</string>
+
+	<!-- Wind chimes -->
+	<string name="wind_chimes">Espanta espíritos</string>
+
+	<!-- Zen -->
+	<string name="zen">Zen</string>
+
+	<!-- White noise -->
+	<string name="white_noise">Ruído branco</string>
+
+	<!-- Brainwave -->
+	<string name="brain_wave">Ondas cerebrais</string>
+
+	<!-- Heartbeat -->
+	<string name="heartbeat">Batimento cardiaco</string>
+
+	<!-- Alpha wave -->
+	<string name="alpha_wave">Onda alfa</string>
+
+	<!-- Beta wave -->
+	<string name="beta_wave">Onda beta</string>
+
+	<!-- Tea -->
+	<string name="tea">Chá</string>
+
+	<!-- Relaxing bath -->
+	<string name="relaxing_bath">Banho relaxante</string>
+
+	<!-- Typewrite -->
+	<string name="type_writer">Typewrite</string>
+
+	<!-- Coloring book -->
+	<string name="coloring_book">Livro de colorir</string>
+
+	<!-- Pencil -->
+	<string name="pencil">Lápis</string>
+
+	<!-- Welcome to Alarmy! -->
+
+	<!-- The alarm will do the duty to wake you up! -->
+
+	<!-- Helping you wake up daily -->
+	<string name="text_intro1">Ajudando você a acordar diariamente</string>
+
+	<!-- Instant wake up -->
+	<string name="text_intro2">Acordar instantâneo</string>
+
+	<!-- Good morning with all our tools -->
+	<string name="text_intro3">Bom dia com todas as nossas ferramentas</string>
+
+	<!-- Waking up on time makes your day a success -->
+	<string name="text1_intro1">Acordar a tempo faz do seu dia um sucesso</string>
+
+	<!-- Tasks, sounds... help break your sleep inertia -->
+	<string name="text2_intro1">Tarefas, sons ... ajude a quebrar sua inércia de sono</string>
+
+	<!-- Get access to timers, reminder, and other tools to help you organize your day -->
+	<string name="text3_intro1">Obtenha acesso a temporizadores, lembrete e outras ferramentas para ajudá -lo a organizar seu dia</string>
+
+	<!-- Create first Alarm -->
+	<string name="text_create_first">Crie primeiro alarme</string>
+
+	<!-- Next -->
+	<string name="next">Próximo</string>
+
+	<!-- Set first alarm time -->
+	<string name="set_alarm_time">Defina o primeiro tempo de alarme</string>
+
+	<!-- Choose the sound you like -->
+	<string name="choose_sound">Escolha o som que você gosta</string>
+
+	<!-- Alarm bell -->
+	<string name="alarm_bell">Alarme</string>
+
+	<!-- Peaceful Sound -->
+	<string name="peaceful">Som pacífico</string>
+
+	<!-- Happy Sound -->
+	<string name="happy_sound">Som feliz</string>
+
+	<!-- Loud Sound -->
+	<string name="loud_sound">Som alto</string>
+
+	<!-- Math -->
+	<string name="math">Matemática</string>
+
+	<!-- Memorize -->
+	<string name="memorize">Memorizar</string>
+
+	<!-- Shake -->
+
+	<!-- Shake -->
+	<string name="shake_action">Sacudir</string>
+
+	<!-- Shake the phone -->
+	<string name="shake_the_phone">Agite o telefone</string>
+
+	<!-- Rewrite -->
+	<string name="rewrite">Reescrever</string>
+
+	<!-- Step -->
+	<string name="step">Etapa</string>
+
+	<!-- Barcode/QR code -->
+	<string name="qr_code">Código de barras/código QR</string>
+
+	<!-- Turn off -->
+	<string name="turn_off">Nenhuma Tarefa</string>
+
+	<!-- Choose the alarm task you like -->
+	<string name="alarm_task">Escolha a tarefa de alarme que você gosta</string>
+
+	<!-- Next alarm -->
+	<string name="next_alarm">Próximo alarme</string>
+
+	<!-- The alarm will ring after %dh%dmin -->
+	<string name="time_will_ring">O alarme tocará após %dh %dmin</string>
+
+	<!-- The alarm will ring after %dmin -->
+	<string name="time_will_ring_min">O alarme vai tocar depois de %dmin</string>
+
+	<!-- The alarm will ring after %d day %d hours -->
+	<string name="time_will_ring_day">O alarme tocará após %d dia %d horas</string>
+
+	<!-- Alarm coming soon -->
+	<string name="alarm_comming_soon">Alarme em breve</string>
+
+	<!-- Mission -->
+
+	<!-- Delete -->
+	<string name="delete">Excluir</string>
+
+	<!-- Preview -->
+	<string name="priview">Visualização</string>
+
+	<!-- Set as template -->
+	<string name="template">Defina como modelo</string>
+
+	<!-- Undo skip next -->
+	<string name="undo_skip">Desfaça o pular a seguir</string>
+
+	<!-- Duplicate -->
+	<string name="duplicate">Duplicado</string>
+
+	<!-- Start the task -->
+	<string name="start_the_task">Inicie a tarefa</string>
+
+	<!-- Exit preview -->
+	<string name="exit_priview">Visualização de saída</string>
+
+	<!-- Dismiss -->
+	<string name="dismiss">Liberar</string>
+
+	<!-- No alarm turn on -->
+	<string name="no_alarm_turn_on">Sem alarme ativado</string>
+
+	<!-- No upcoming alarms -->
+	<string name="create_new">Sem alarmes futuros</string>
+
+	<!-- Squat -->
+	<string name="squat">Agachamento</string>
+
+	<!-- Here\'s an example: -->
+	<string name="here_an_example">Aqui está um exemplo:</string>
+
+	<!-- Take your phone and squat until you have reached the number of squats you have chosen. The alarm will go off -->
+	<string name="here_an_example_squat">Pegue seu telefone e agache -se até atingir o número de agachamentos que você escolheu. O alarme vai disparar</string>
+
+	<!-- Take your phone and walk until you have reached the number of steps you have chosen. The alarm will go off -->
+	<string name="here_an_example_step">Pegue o telefone e caminhe até atingir o número de etapas que você escolheu. O alarme vai disparar</string>
+
+	<!-- Shake your phone as many times as you have selected. The alarm will go off -->
+	<string name="here_an_example_shake">Agite seu telefone quantas vezes você selecionou. O alarme vai disparar</string>
+
+	<!-- Number of squats -->
+	<string name="number_of_squat">Número de agachamentos</string>
+
+	<!-- Number of shakes -->
+	<string name="number_of_shake">Número de shakes</string>
+
+	<!-- Save -->
+	<string name="action_save">Salvar</string>
+
+	<!-- Preview -->
+	<string name="action_preview">Visualização</string>
+
+	<!-- Stand up and get ready -->
+	<string name="stand_up_and_get_ready">Levante -se e prepare -se</string>
+
+	<!-- Exit preview -->
+	<string name="exit_preview">Visualização de saída</string>
+
+	<!-- Start now -->
+	<string name="start_now">Comece agora</string>
+
+	<!-- Hold with both hands -->
+	<string name="hold_with_both_hands">Segure com as duas mãos</string>
+
+	<!-- Start squatting -->
+	<string name="start_squat">Comece a agachamento</string>
+
+	<!-- Off -->
+	<string name="txt_off">Desligado</string>
+
+	<!-- 1m -->
+
+	<!-- 5 m -->
+
+	<!-- 10 m -->
+
+	<!-- 15 m -->
+
+	<!-- 20 m -->
+
+	<!-- 25 m -->
+
+	<!-- 30 m -->
+
+	<!-- Cancel -->
+	<string name="txt_cancel">Cancelar</string>
+
+	<!-- Ok -->
+	<string name="txtok">OK</string>
+
+	<!-- Default -->
+	<string name="txtDefault">Padrão</string>
+
+	<!-- More task -->
+	<string name="txt_more_task">Mais tarefa</string>
+
+	<!-- Number of steps -->
+	<string name="number_of_steps">Número de etapas</string>
+
+	<!-- Number of tasks -->
+	<string name="number_of_tasks">Número de tarefas</string>
+
+	<!-- Number of equations -->
+	<string name="number_of_equations">Número de equações</string>
+
+	<!-- None -->
+	<string name="none">Nenhum</string>
+
+	<!-- Easiest -->
+	<string name="easiest">Mais fácil</string>
+
+	<!-- Easy -->
+	<string name="easy">Fácil</string>
+
+	<!-- Medium -->
+	<string name="medium">Médio</string>
+
+	<!-- Hard -->
+	<string name="hard">Duro</string>
+
+	<!-- Hardest -->
+	<string name="hardest">Mais difícil</string>
+
+	<!-- Preview -->
+
+	<!-- 0 -->
+	<string name="pad_number_0">0</string>
+
+	<!-- 1 -->
+	<string name="pad_number_1">1</string>
+
+	<!-- 2 -->
+	<string name="pad_number_2">2</string>
+
+	<!-- 3 -->
+	<string name="pad_number_3">3</string>
+
+	<!-- 4 -->
+	<string name="pad_number_4">4</string>
+
+	<!-- 5 -->
+	<string name="pad_number_5">5</string>
+
+	<!-- 6 -->
+	<string name="pad_number_6">6</string>
+
+	<!-- 7 -->
+	<string name="pad_number_7">7</string>
+
+	<!-- 8 -->
+	<string name="pad_number_8">8</string>
+
+	<!-- 9 -->
+	<string name="pad_number_9">9</string>
+
+	<!-- Back button -->
+	<string name="cd_back_button">Botão \"voltar</string>
+
+	<!-- Validate button -->
+	<string name="cd_validate_button">Validar botão</string>
+
+	<!-- Next round -->
+	<string name="next_round">Proxima rodada</string>
+
+	<!-- You made a mistake! Fix it -->
+	<string name="tv_check">Você cometeu um erro! Consertá-lo</string>
+
+	<!-- Choose task -->
+	<string name="choose_task_title">Escolha a tarefa</string>
+
+	<!-- Alarm preview is over -->
+	<string name="alarm_preview_is_over">A prévia do alarme acabou</string>
+
+	<!-- Awaken the brain -->
+	<string name="awaken_the_brain">Desperte o cérebro</string>
+
+	<!-- Awaken the body -->
+	<string name="awaken_the_body">Desperte o corpo</string>
+
+	<!-- The Application needs Below Permission to provide phone finder by clapping -->
+	<string name="permision_title">O aplicativo precisa abaixo da permissão para fornecer um localizador de telefone batendo palmas</string>
+
+	<!-- Permission -->
+	<string name="permission_label">Permissão</string>
+
+	<!-- Go -->
+	<string name="go_title">Ir</string>
+
+	<!-- Notification -->
+
+	<!-- Exact alarm -->
+	<string name="exact_alarm">Alarme exato</string>
+
+	<!-- Snooze %d time -->
+	<string name="snoozed_time">Snooze %d tempo</string>
+
+	<!-- Cannot enable snooze in preview mode -->
+	<string name="cant_enable_snooze">Não é possível ativar a soneca no modo de visualização</string>
+
+	<!-- Dont set alarm -->
+	<string name="dont_set_alarm">Não defina alarme</string>
+
+	<!-- Click “add alarm button” to create an alarm -->
+	<string name="click_create">Clique em \"Adicionar botão de alarme\" para criar um alarme</string>
+
+	<!-- Keep in mind (%d) -->
+	<string name="keep_in_mind">Lembre -se (%d)</string>
+
+	<!-- Detects %d color cells -->
+	<string name="detects_color_cells">Detecta %d células coloridas</string>
+
+	<!-- Incorrect! -->
+	<string name="incorrect">Incorreta!</string>
+
+	<!-- Please try again -->
+	<string name="try_again">Por favor, tente novamente</string>
+
+	<!-- Delete alarm. -->
+	<string name="delete_alarm">Excluir alarme.</string>
+
+	<!-- Alarm is set for %d h %d min from now -->
+	<string name="alarm_is_set_hour">O alarme é definido para %d h %d min a partir de agora</string>
+
+	<!-- Alarm is set for %d day %d hour from now -->
+	<string name="alarm_is_set_day">O alarme está definido para %d dia %d Hora a partir de agora</string>
+
+	<!-- Alarm preview is over -->
+	<string name="alarm_priview_over">A prévia do alarme acabou</string>
+
+	<!-- Barcode/QR code -->
+
+	<!-- Find and scan the code part of your morning schedule -->
+	<string name="txt_find_and_scan_the_code_part_of_your_morning_schedule">Encontre e digitalize a parte do código da sua programação da manhã</string>
+
+	<!-- Add barcode/QR code -->
+	<string name="txt_addqr">Adicionar código de barras/QR</string>
+
+	<!-- Change name -->
+	<string name="txt_change_name">Mude o nome</string>
+
+	<!-- Delete -->
+	<string name="txt_delete">Excluir</string>
+
+	<!-- Delete selected code? -->
+	<string name="txt_delete_select_code">Excluir código selecionado?</string>
+
+	<!-- Save -->
+	<string name="txtsave">Salvar</string>
+
+	<!-- Delete -->
+	<string name="txtdelete">Excluir</string>
+
+	<!-- Barcode name/QR code -->
+	<string name="txtqrtitle">Nome do código de barras/código QR</string>
+
+	<!-- Notification -->
+	<string name="notification">Notificação</string>
+
+	<!-- Recognition -->
+	<string name="recognition">Reconhecimento</string>
+
+	<!-- Camera -->
+	<string name="camera">Câmera</string>
+
+	<!-- Get ready to scan barcode/QR code -->
+	<string name="title_gr_code">Prepare -se para digitalizar código de barras/QR</string>
+
+	<!-- I\\'m ready -->
+	<string name="ready">Estou pronto</string>
+
+	<!-- Barcode does not match -->
+	<string name="barcode_note_match">Código de barras não corresponde</string>
+
+	<!-- You made a mistake! Fix it -->
+	<string name="you_made_a_mistake_fix_it">Você cometeu um erro! Consertá-lo</string>
+
+	<!-- Skip next -->
+	<string name="skip_next">Pule em seguida</string>
+
+	<!-- Start -->
+	<string name="start">Começar</string>
+
+	<!-- Discard unsaved changes before leaving? -->
+	<string name="txt_save_on_exit">Descartar mudanças não salvas antes de sair?</string>
+
+	<!-- Back -->
+	<string name="txt_back">Voltar</string>
+
+	<!-- Add -->
+	<string name="txt_add">Adicionar</string>
+
+	<!-- Apply -->
+	<string name="apply">Aplicar</string>
+
+	<!-- Hello blank fragment -->
+
+	<!-- Alarm setting -->
+	<string name="alarm_setting">Configuração de alarme</string>
+
+	<!-- General -->
+	<string name="general">Em geral</string>
+
+	<!-- Share -->
+	<string name="share">Compartilhar</string>
+
+	<!-- Privacy Policy -->
+	<string name="privacy_policy">Política de Privacidade</string>
+
+	<!-- Volume and sound -->
+	<string name="volume_sound">Volume e som</string>
+
+	<!-- Gradually increase volume -->
+	<string name="increase_volume">Aumentar gradualmente o volume</string>
+
+	<!-- Task dismissal -->
+	<string name="task_dismissal">Dispensação de tarefas</string>
+
+	<!-- Task time limit -->
+	<string name="task_time_limit">Tempo de tarefa</string>
+
+	<!-- Dismiss and snooze -->
+	<string name="dismiss_snooze">Dispensa e soneca</string>
+
+	<!-- Auto dismiss -->
+	<string name="auto_dismiss">Descarte automático</string>
+
+	<!-- Shake sensitivity -->
+	<string name="shake_sensitivity">Shake sensibilidade</string>
+
+	<!-- Upcoming Alarms -->
+	<string name="upcoming_alarms">Próximos alarmes</string>
+
+	<!-- Show next alarm in notification drawer -->
+
+	<!-- Sort by enabling alarms first -->
+	<string name="sort_by_enable">Classifique, permitindo alarmes primeiro</string>
+
+	<!-- Mute during mission -->
+	<string name="during_task">Mudo durante a missão</string>
+
+	<!-- High (hard to turn off) -->
+	<string name="high">Alto (difícil de desligar)</string>
+
+	<!-- Normal -->
+	<string name="normal">Normal</string>
+
+	<!-- Low (easy to turn off) -->
+	<string name="low">Baixo (fácil de desligar)</string>
+
+	<!-- Feedback -->
+
+	<!-- Dismiss alarm/Task -->
+
+	<!-- Default setting for new alarms -->
+
+	<!-- Set by default in the editor when adding alarms -->
+
+	<!-- Snooze limit\n -->
+	<string name="snooze_limit">Limite de soneca</string>
+
+	<!-- Use the built-in speaker -->
+
+	<!-- Show next alarm in notification drawer -->
+	<string name="show_next_alarms">Mostre o próximo alarme na gaveta de notificação</string>
+
+	<!-- Next Alarm will appear as a notification -->
+	<string name="tv_next_alarm">O próximo alarme aparecerá como uma notificação</string>
+
+	<!-- Alarm cheat prevention -->
+
+	<!-- Prevent phone turn-off during alarm -->
+
+	<!-- Prevent app uninstall during alarm -->
+
+	<!-- Mission dismissal -->
+
+	<!-- Mute during mission limit -->
+
+	<!-- Photo sensitivity -->
+
+	<!-- off -->
+	<string name="off">Desligado</string>
+
+	<!-- 1m -->
+	<string name="duration_1m">1m</string>
+
+	<!-- 5m -->
+	<string name="duration_5m">5m</string>
+
+	<!-- 10m -->
+	<string name="duration_10m">10m</string>
+
+	<!-- 15m -->
+	<string name="duration_15m">15m</string>
+
+	<!-- 20m -->
+	<string name="duration_20m">20m</string>
+
+	<!-- 25m -->
+	<string name="duration_25m">25m</string>
+
+	<!-- 30m -->
+	<string name="duration_30m">30m</string>
+
+	<!-- 60m -->
+	<string name="duration_60m">60m</string>
+
+	<!-- 10s -->
+	<string name="duration_10s">10s</string>
+
+	<!-- 15s -->
+	<string name="duration_15s">15s</string>
+
+	<!-- 20s -->
+	<string name="duration_20s">20s</string>
+
+	<!-- 30s -->
+	<string name="duration_30s">30s</string>
+
+	<!-- 40s -->
+	<string name="duration_40s">40s</string>
+
+	<!-- 50s -->
+	<string name="duration_50s">50s</string>
+
+	<!-- 60s -->
+	<string name="duration_60s">60s</string>
+
+	<!-- Unlimited -->
+	<string name="unlimited">Ilimitado</string>
+
+	<!-- 1 time -->
+	<string name="time1">1 vez</string>
+
+	<!-- 2 times -->
+	<string name="time2">2 vezes</string>
+
+	<!-- 3 times -->
+	<string name="time3">3 vezes</string>
+
+	<!-- 4 times -->
+	<string name="time4">4 vezes</string>
+
+	<!-- 5 times -->
+	<string name="time5">5 vezes</string>
+
+	<!-- Maybe Later -->
+
+	<!-- The best we can get -->
+
+	<string name="title_duration_1m">1 minuto</string>
+	<string name="title_duration_5m">5 minutos</string>
+	<string name="title_duration_10m">10 minutos</string>
+	<string name="title_duration_15m">15 minutos</string>
+	<string name="title_duration_20m">20 minutos</string>
+	<string name="title_duration_25m">25 minutos</string>
+	<string name="title_duration_30m">30 minutos</string>
+	<string name="title_duration_60m">60 minutos</string>
+	<string name="title_duration_10s">10 segundos</string>
+	<string name="title_duration_15s">15 segundos</string>
+	<string name="title_duration_20s">20 segundos</string>
+	<string name="title_duration_30s">30 segundos</string>
+	<string name="title_duration_40s">40 segundos</string>
+	<string name="title_duration_50s">50 segundos</string>
+	<string name="title_duration_60s">60 segundos</string>
+	<string name="space_min">%d minuto(s)</string>
+	<string name="not_space_min">%dmin</string>
+	<string name="not_space_minute">%dm</string>
+	<string name="ringtone">Toque</string>
+	<string name="rate">Avaliar</string>
+	<string name="exit">Sair</string>
+	<string name="this_action_can_contain_ads">Esta ação pode conter anúncios</string>
+
+	<string name="alarm_is_running">Alarme está tocand</string>
+	<string name="tap_to_dismiss">Toque para dispensar</string>
+	<string name="bedtime_running">A hora de dormir está correndo</string>
+	<string name="is_empty_list">Seu dispositivo não tem os arquivos certos</string>
+	<string name="new_version">Uma nova versão está disponível</string>
+	<string name="new_version_msg">Atualize para continuar usando o aplicativo</string>
+	<string name="update">Atualizar</string>
+	<string name="you_have_added">Você adicionou este código antes</string>
+
+	<string name="sort_alarm_by">Ordenar alarmes</string>
+	<string name="sort_by_alarm_recent">Ordenar por próximo alarme</string>
+
+	<string name="my_day_title">Meu dia</string>
+	<string name="morning_feeling_title">Sensação da manhã</string>
+	<string name="diary_of_the_day_title">Diário do dia</string>
+	<string name="horoscope_title">Horóscopo</string>
+	<string name="horoscope_detail_title">Acorde todas as manhãs para descobrir coisas novas! Nos informe sua data de nascimento.</string>
+	<string name="diary_of_day_detail_title">Anote as atividades do seu dia</string>
+	<string name="how_are_you_feeling_now_title">Como você está se sentindo agora?</string>
+	<string name="please_select_one_option">Por favor, selecione uma opção</string>
+	<string name="cheery">Alegre</string>
+	<string name="calm_down">Calmo</string>
+	<string name="unfeeling">Indiferente</string>
+	<string name="sleepy">Com sono</string>
+	<string name="tired">Cansado</string>
+	<string name="angry">Com raiva</string>
+	<string name="what_do_you_have_planned_for_today">O que você tem planejado para hoje?</string>
+	<string name="more_details">Mais detalhes</string>
+	<string name="how_is_the_weather_today">Como está o clima hoje?</string>
+	<string name="empty_feeling_title">Você não compartilhou nenhum pensamento sobre essa manhã. Toque para adicionar um sentimento à manhã.</string>
+	<string name="check_now">Verificar agora</string>
+	<string name="empty_diary">Você não possui nenhum plano registrado para este dia</string>
+	<string name="horoscope_today">Horóscopo hoje</string>
+	<string name="horoscope_tomorrow">Horóscopo amanhã</string>
+	<string name="an_error_has_been_occurred">Ocorreu um erro</string>
+	<string name="please_try_again_later">Por favor, tente novamente mais tarde!</string>
+	<string name="aries">Áries</string>
+	<string name="taurus">Touro</string>
+	<string name="gemini">Gêmeos</string>
+	<string name="cancer">Câncer</string>
+	<string name="leo">Leão</string>
+	<string name="virgo">Virgem</string>
+	<string name="libra">Libra</string>
+	<string name="scorpio">Escorpião</string>
+	<string name="sagittarius">Sagitário</string>
+	<string name="capricorn">Capricórnio</string>
+	<string name="aquarius">Aquário</string>
+	<string name="pisces">Peixes</string>
+	<string name="red">Vermelho</string>
+	<string name="green">Verde</string>
+	<string name="yellow">Amarelo</string>
+	<string name="white">Branco</string>
+	<string name="silver">Prata</string>
+	<string name="gold">Ouro</string>
+	<string name="brown">Marrom</string>
+	<string name="pink">Rosa</string>
+	<string name="blue">Azul</string>
+	<string name="black">Preto</string>
+	<string name="purple">Roxo</string>
+	<string name="grey">Cinza</string>
+	<string name="light_green">Verde claro</string>
+	<string name="reminders">Lembretes</string>
+	<string name="no_reminders">Sem lembretes</string>
+	<string name="click_add_reminders_button_to_create_an_alert">Clique no botão "Adicionar lembretes" para criar um alerta</string>
+	<string name="add_reminders">Adicionar lembretes</string>
+	<string name="remind_me_about">Lembrar-me sobre...</string>
+	<string name="date_time"><![CDATA[Data & Hora]]></string>
+	<string name="alert_tone">Tom do alerta</string>
+	<string name="repeat_none">Não se repete</string>
+	<string name="repeat_daily">Repete diariamente</string>
+	<string name="repeat_weekly">Repete semanalmente</string>
+	<string name="repeat_monthly">Repete mensalmente</string>
+	<string name="repeat_annually">Repete anualmente</string>
+	<string name="repeat_hour">A cada N horas</string>
+	<string name="repeat_several">Várias vezes ao dia</string>
+	<string name="every_hours">A cada %1$d horas</string>
+	<string name="times">%1$d vezes</string>
+	<string name="time_idx">Hora %1$d</string>
+	<string name="repeat_cycle">Ciclo de repetição</string>
+	<string name="reminder_count">Contagem de lembretes</string>
+	<string name="edit_reminders">Editar lembretes</string>
+	<string name="edit">Editar</string>
+	<string name="close">Fechar</string>
+	<string name="do_you_want_to_delete_reminder">Você deseja excluir este lembrete?</string>
+	<string name="delete_success">Excluído com sucesso</string>
+
+	<string name="today_lbl">Hoje</string>
+	<string name="lucky_color">Cor da sorte</string>
+	<string name="lucky_number">Número da sorte</string>
+	<string name="date_of_birth">Data de nascimento</string>
+	<string name="gender">Gênero</string>
+	<string name="female">Feminino</string>
+	<string name="male">Masculino</string>
+    <string name="choose_sticker">Escolha o adesivo</string>
+    <string name="notification_policy">Política de Notificação</string>
+
+</resources>

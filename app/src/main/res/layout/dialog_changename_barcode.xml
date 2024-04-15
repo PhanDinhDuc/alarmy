@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="@dimen/dimen_16">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_qr_codes"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseEditText
+            android:id="@+id/edtBarcode"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/bg_edit_text_line"
+            android:gravity="top|start"
+            android:paddingEnd="@dimen/dimen_16"
+            android:paddingStart="@dimen/dimen_0"
+            android:maxLines="2"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img" />
+
+        <ImageView
+            android:id="@+id/tv_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_exit2"
+            android:paddingTop="@dimen/dimen_4"
+            app:layout_constraintEnd_toEndOf="@+id/edtBarcode"
+            app:layout_constraintTop_toTopOf="@+id/edtBarcode" />
+
+        <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+            android:id="@+id/baseTextview8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_12"
+            android:text="@string/txtqrtitle"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@id/img"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            app:layout_constraintTop_toBottomOf="@id/edtBarcode">
+
+            <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+                android:id="@+id/txtCancel"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_marginVertical="@dimen/dimen_24"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="@dimen/dimen_8"
+                android:layout_weight="1"
+                android:background="@drawable/bg_snoonze_btn"
+                android:gravity="center"
+                android:paddingVertical="10dp"
+                android:text="@string/txt_cancel"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/txtOk" />
+
+            <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+                android:id="@+id/txtOk"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_marginVertical="@dimen/dimen_24"
+                android:layout_marginStart="@dimen/dimen_8"
+                android:layout_marginEnd="@dimen/dimen_16"
+                android:layout_weight="1"
+                android:background="@drawable/active_button"
+                android:gravity="center"
+                android:paddingVertical="10dp"
+                android:text="@string/txtsave"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/txtCancel" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "168446581133",
+    "project_id": "app109-alarmy",
+    "storage_bucket": "app109-alarmy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168446581133:android:093fabab108353a49745c4",
+        "android_client_info": {
+          "package_name": "com.alarm.clock.reminder.alarmclock.simplealarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168446581133-88uhplh8ft1q4cv3no52gsusnnvg1jbe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ_FDGPura7SM4K373w1gKRBXfZStEkx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168446581133-88uhplh8ft1q4cv3no52gsusnnvg1jbe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

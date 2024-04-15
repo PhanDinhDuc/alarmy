@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background">
+
+    <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.HeaderView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cs_title="@string/horoscope_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title_gravity="center" />
+
+    <View
+        android:id="@+id/btnPicker"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="-12dp"
+        android:layout_marginBottom="-12dp"
+        android:background="@drawable/bg_feeling_input_sellect"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView30"
+        app:layout_constraintTop_toTopOf="@+id/imageView30" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:clickable="false"
+        android:focusable="false"
+        app:layout_constraintEnd_toStartOf="@+id/tvZodiac"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header"
+        app:srcCompat="@drawable/ic_setting_favorite"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+        android:id="@+id/tvZodiac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:text="Virgo"
+        android:textColor="#1A1C28"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView30"
+        app:layout_constraintEnd_toStartOf="@+id/tvDate"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView30"
+        app:layout_constraintTop_toTopOf="@+id/imageView30" />
+
+    <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:text="(8.27.2023)"
+        android:textColor="#1A1C28"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvZodiac" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnPicker">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.faltenreich.skeletonlayout.SkeletonLayout
+                android:id="@+id/skeToday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+                        android:id="@+id/tvZodiac1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:text="@string/horoscope_today"
+                        android:textColor="#1A1C28"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toStartOf="@+id/btnShareToday"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:layout_editor_absoluteY="150dp" />
+
+                    <ImageView
+                        android:id="@+id/btnShareToday"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        app:layout_constraintBottom_toBottomOf="@+id/tvZodiac1"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toEndOf="@+id/tvZodiac1"
+                        app:layout_constraintTop_toTopOf="@+id/tvZodiac1"
+                        app:srcCompat="@drawable/ic_share" />
+
+                    <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+                        android:id="@+id/tvZodiac1Detail"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="12dp"
+                        android:lineSpacingMultiplier="1.1"
+                        android:text="Do you call it sensible? Or sensitive? Movies and books are recommended. Feed your soul with culture. Your soul will apperciate it very much."
+                        android:textColor="#1A1C28"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="@+id/btnShareToday"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tvZodiac1" />
+
+                    <include
+                        android:id="@+id/luckyNumber1"
+                        layout="@layout/view_lucky_number"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        app:layout_constraintEnd_toStartOf="@+id/luckyColor1"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/tvZodiac1Detail"
+                        app:layout_constraintWidth_percent="0.35" />
+
+                    <include
+                        android:id="@+id/luckyColor1"
+                        layout="@layout/view_lucky_color"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toEndOf="@+id/luckyNumber1"
+                        app:layout_constraintTop_toBottomOf="@id/tvZodiac1Detail"
+                        app:layout_constraintWidth_percent="0.35" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </com.faltenreich.skeletonlayout.SkeletonLayout>
+
+            <com.faltenreich.skeletonlayout.SkeletonLayout
+                android:id="@+id/skeTomorrow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imageView34"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="16dp"
+                        android:layout_marginTop="16dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/view_separator_monoscope" />
+
+                    <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+                        android:id="@+id/tvZodiac2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/horoscope_tomorrow"
+                        android:textColor="#1A1C28"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toStartOf="@+id/btnShareTomo"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@id/imageView34"
+                        tools:layout_editor_absoluteY="150dp" />
+
+                    <ImageView
+                        android:id="@+id/btnShareTomo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:clickable="true"
+                        app:layout_constraintBottom_toBottomOf="@+id/tvZodiac2"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toEndOf="@+id/tvZodiac2"
+                        app:layout_constraintTop_toTopOf="@+id/tvZodiac2"
+                        app:srcCompat="@drawable/ic_share" />
+
+                    <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+                        android:id="@+id/tvZodiac2Detail"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="12dp"
+                        android:lineSpacingMultiplier="1.1"
+                        android:text="Do you call it sensible? Or sensitive? Movies and books are recommended. Feed your soul with culture. Your soul will apperciate it very much."
+                        android:textColor="#1A1C28"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="@+id/btnShareTomo"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tvZodiac2" />
+
+                    <include
+                        android:id="@+id/luckyNumber2"
+                        layout="@layout/view_lucky_number"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="30dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/luckyColor2"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/tvZodiac2Detail"
+                        app:layout_constraintWidth_percent="0.35" />
+
+                    <include
+                        android:id="@+id/luckyColor2"
+                        layout="@layout/view_lucky_color"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toEndOf="@+id/luckyNumber2"
+                        app:layout_constraintTop_toBottomOf="@id/tvZodiac2Detail"
+                        app:layout_constraintWidth_percent="0.35" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </com.faltenreich.skeletonlayout.SkeletonLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

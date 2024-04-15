@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/dimen_16">
+
+    <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:text="@string/number_of_equations"
+        android:textColor="@color/textPrimaryColor"
+        android:textSize="@dimen/dimen_16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+        android:id="@+id/tv_title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number_of_equations"
+        android:textColor="@color/newtral_6"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:textSize="@dimen/dimen_16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.alarm.clock.reminder.alarmclock.simplealarm.view.first_alarm.wheel_picker.WheelPicker
+        android:id="@+id/minutes_picker"
+        android:layout_width="50dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/dimen_16"
+        app:align="CENTER"
+        app:fadingEdgeEnabled="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title"
+        app:textSize="@dimen/dimen_24"
+        app:wheelItemCount="3"
+        app:wrapSelectorWheel="true" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#C6C6C9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/minutes_picker"
+        app:layout_constraintStart_toStartOf="@+id/minutes_picker"
+        app:layout_constraintTop_toTopOf="@+id/minutes_picker"
+        app:layout_constraintVertical_bias="0.32999998" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#C6C6C9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/minutes_picker"
+        app:layout_constraintStart_toStartOf="@+id/minutes_picker"
+        app:layout_constraintTop_toTopOf="@+id/minutes_picker"
+        app:layout_constraintVertical_bias="0.68" />
+
+    <EditText
+        android:id="@+id/edtHour2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:maxLength="2"
+        android:paddingBottom="8dp"
+        android:text="09"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="31.2sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/view4"
+        app:layout_constraintEnd_toEndOf="@+id/minutes_picker"
+        app:layout_constraintStart_toStartOf="@+id/minutes_picker"
+        app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

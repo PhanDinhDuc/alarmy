@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="@dimen/dimen_16">
+
+        <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+            android:id="@+id/txtxDecrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_save_on_exit"
+            android:textColor="@color/newtral_6"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:weightSum="2"
+            app:layout_constraintTop_toBottomOf="@id/txtxDecrip">
+
+            <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+                android:id="@+id/txtCancel"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="@dimen/dimen_8"
+                android:layout_weight="1"
+                android:background="@drawable/bg_view_add_alarm"
+                android:backgroundTint="#C6C6C9"
+                android:gravity="center"
+                android:paddingVertical="10dp"
+                android:text="@string/txt_cancel"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/txtOk"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+                android:id="@+id/txt_back"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="@dimen/dimen_8"
+                android:layout_marginEnd="@dimen/dimen_16"
+                android:layout_weight="1"
+                android:background="@drawable/bg_view_add_alarm"
+                android:gravity="center"
+                android:paddingVertical="10dp"
+                android:text="@string/txt_back"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/txtCancel" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

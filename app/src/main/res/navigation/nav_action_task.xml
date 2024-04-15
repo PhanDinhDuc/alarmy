@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/emptyFragment">
+
+    <action
+        android:id="@+id/action_emptyFragment"
+        app:destination="@id/emptyFragment"
+        app:popUpTo="@id/nav_main" />
+
+    <action
+        android:id="@+id/action_to_squat"
+        app:destination="@id/squatFragment"
+        app:popUpTo="@id/nav_main" />
+
+    <fragment
+        android:id="@+id/squatFragment"
+        android:name="com.alarm.clock.reminder.alarmclock.simplealarm.view.task.squat.SquatFragment"
+        android:label="SquatFragment" />
+    <action
+        android:id="@+id/action_to_math"
+        app:destination="@id/mathPreviewFragment"
+        app:popUpTo="@id/nav_main" />
+
+    <action
+        android:id="@+id/action_to_step"
+        app:destination="@id/stepFragment"
+        app:popUpTo="@id/nav_main" />
+
+    <action
+        android:id="@+id/action_to_shake"
+        app:destination="@id/shakeFragment"
+        app:popUpTo="@id/nav_main" />
+
+    <fragment
+        android:id="@+id/stepFragment"
+        android:name="com.alarm.clock.reminder.alarmclock.simplealarm.view.step.StepFragment"
+        android:label="StepFragment" />
+
+    <action
+        android:id="@+id/action_to_memories"
+        app:destination="@id/memoriesPreviewFragment"
+        app:popUpTo="@id/nav_main" />
+
+    <action
+        android:id="@+id/action_to_rewrite"
+        app:destination="@id/rewritePreviewFragment"
+        app:popUpTo="@id/nav_main" />
+    <action
+        android:id="@+id/action_to_qrCode"
+        app:destination="@id/QRCodePreviewFragment"
+        app:popUpTo="@id/nav_main" />
+
+    <fragment
+        android:id="@+id/mathPreviewFragment"
+        android:name="com.alarm.clock.reminder.alarmclock.simplealarm.view.task.math.MathPreviewFragment"
+        android:label="MathPreviewFragment" />
+    <fragment
+        android:id="@+id/memoriesPreviewFragment"
+        android:name="com.alarm.clock.reminder.alarmclock.simplealarm.view.task.memories.MemoriesPreviewFragment"
+        android:label="fragment_memories_preview"
+        tools:layout="@layout/fragment_memories_preview" />
+    <fragment
+        android:id="@+id/rewritePreviewFragment"
+        android:name="com.alarm.clock.reminder.alarmclock.simplealarm.view.task.rewrite.RewritePreviewFragment"
+        android:label="fragment_rewrite_preview"
+        tools:layout="@layout/fragment_rewrite_preview" />
+    <fragment
+        android:id="@+id/shakeFragment"
+        android:name="com.alarm.clock.reminder.alarmclock.simplealarm.view.shake.ShakeFragment"
+        android:label="ShakeFragment" />
+
+    <fragment
+        android:id="@+id/emptyFragment"
+        android:name="com.alarm.clock.reminder.alarmclock.simplealarm.application.base.EmptyFragment"
+        android:label="EmptyFragment" />
+    <fragment
+        android:id="@+id/QRCodePreviewFragment"
+        android:name="com.alarm.clock.reminder.alarmclock.simplealarm.view.task.qrcode.QRCodePreviewFragment"
+        android:label="QRCodePreviewFragment" >
+        <action
+            android:id="@+id/action_QRCodePreviewFragment_to_barcodeScanningFragment"
+            app:destination="@id/barcodeScanningFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/barcodeScanningFragment"
+        android:name="com.alarm.clock.reminder.alarmclock.simplealarm.view.task.qrcode.BarcodeScanningFragment"
+        android:label="BarcodeScanningFragment" >
+    </fragment>
+
+</navigation>

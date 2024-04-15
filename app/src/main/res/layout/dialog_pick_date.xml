@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.ALDatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:weightSum="2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/datePicker"
+            tools:ignore="MissingConstraints">
+
+            <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+                android:id="@+id/txt_cancel"
+                android:layout_width="124dp"
+                android:layout_height="42dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_snoonze_btn"
+                android:gravity="center"
+                android:text="@string/txt_cancel"
+                android:textColor="#F8F8F8"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+                android:id="@+id/txt_confirm"
+                android:layout_width="124dp"
+                android:layout_height="42dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_snoonze_btn"
+                android:gravity="center"
+                android:text="@string/confirm"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background"
+    tools:context=".view.task.math.MathPreviewFragment">
+
+    <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+        android:id="@+id/tv_calculation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_24"
+        android:text="@string/save"
+        android:textColor="@color/textPrimaryColor"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+        android:id="@+id/tv_next_round"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_24"
+        android:text="@string/next_round"
+        android:textColor="@color/textPrimaryColor"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/num_pad_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="invisible" />
+
+    <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+        android:id="@+id/tv_equal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="="
+        android:textColor="@color/textPrimaryColor"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/num_pad_view"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/num_pad_view"
+        app:layout_constraintTop_toBottomOf="@+id/tv_calculation" />
+
+    <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+        android:id="@+id/tv_result"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_8"
+        android:layout_marginTop="20dp"
+        android:gravity="end"
+        android:hint="?"
+        android:maxLength="15"
+        android:maxLines="1"
+        android:textColor="@color/textPrimaryColor"
+        android:textColorHint="#94949A"
+        android:textDirection="ltr"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_equal"
+        app:layout_constraintEnd_toEndOf="@+id/num_pad_view"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_equal"
+        app:layout_constraintTop_toBottomOf="@+id/tv_calculation" />
+
+    <ImageView
+        android:id="@+id/tv_result_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_wrong"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_equal"
+        app:layout_constraintEnd_toEndOf="@+id/num_pad_view"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/num_pad_view"
+        app:layout_constraintTop_toBottomOf="@+id/tv_calculation" />
+
+    <com.alarm.clock.reminder.alarmclock.simplealarm.view.task.math.NumPadView
+        android:id="@+id/num_pad_view"
+        android:layout_width="@dimen/match_constraint"
+        android:layout_height="@dimen/match_constraint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.6" />
+
+    <LinearLayout
+        android:id="@+id/exitBtn"
+        android:layout_width="220dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/bg_snooxe_bottom"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_toLeftOf="@+id/txt_exit"
+            android:src="@drawable/ic_exit_2" />
+
+        <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exit_priview"
+            android:textColor="@color/primary_2"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/round"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="tv_result,tv_equal,tv_calculation" />
+</androidx.constraintlayout.widget.ConstraintLayout>

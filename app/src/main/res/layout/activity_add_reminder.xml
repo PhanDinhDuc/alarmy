@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="16dp"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/add_reminders"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignEnd="@+id/img_done"
+            android:paddingHorizontal="16dp"
+            android:visibility="gone"
+            android:layout_marginEnd="42dp"
+            android:src="@drawable/ic_delete2" />
+
+        <ImageView
+            android:id="@+id/img_done"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:paddingHorizontal="16dp"
+            android:src="@drawable/archive_tick" />
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/typePicker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:clipToPadding="false"
+                android:orientation="horizontal"
+                android:paddingHorizontal="20dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/remind_me_about"
+                android:textColor="@color/newtral_6"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edt_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dimen_16"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="@dimen/dimen_16"
+                android:background="@drawable/coner_child_task"
+                android:hint="@string/enter"
+                android:imeOptions="actionDone"
+                android:includeFontPadding="false"
+                android:inputType="text"
+                android:lines="1"
+                android:maxLength="30"
+                android:maxLines="1"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="10dp"
+                android:textColor="@color/newtral_6"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.047"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/choose_sticker"
+                android:textColor="@color/newtral_6"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edt_name"
+                tools:ignore="MissingConstraints" />
+
+            <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+                android:id="@+id/dateAndTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/date_time"
+                android:textColor="@color/newtral_6"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/typePicker"
+                tools:ignore="MissingConstraints" />
+
+            <LinearLayout
+                android:id="@+id/date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/bg_white_radius_10"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="12dp"
+                app:layout_constraintEnd_toStartOf="@+id/time"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dateAndTime">
+
+                <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+                    android:id="@+id/dateText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_calendar"
+                    android:drawablePadding="8dp"
+                    android:gravity="center"
+                    android:text="8/22/2023"
+                    android:textColor="@color/color_1E6AB0"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/bg_white_radius_10"
+                android:gravity="center"
+                android:paddingVertical="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/date"
+                app:layout_constraintTop_toBottomOf="@+id/dateAndTime">
+
+                <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+                    android:id="@+id/timeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_timer"
+                    android:drawablePadding="8dp"
+                    android:gravity="center"
+                    android:text="06:00 AM"
+                    android:textColor="@color/color_1E6AB0"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/repeat"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_white_radius8"
+                app:layout_constraintEnd_toEndOf="@+id/edt_name"
+                app:layout_constraintStart_toStartOf="@+id/edt_name"
+                app:layout_constraintTop_toBottomOf="@+id/date">
+
+                <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+                    android:id="@+id/repeatText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Does not repeat"
+                    android:textColor="@color/newtral_6"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+                    android:id="@+id/repeatType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Every 8 hours"
+                    android:textColor="@color/color_1E6AB0"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    app:layout_constraintTop_toTopOf="@+id/repeatText"
+                    android:id="@+id/imageView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_width="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:rotation="90"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="@+id/repeatText"
+                    android:src="@drawable/ic_view"
+                    tools:ignore="MissingConstraints" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/repeatSeveral"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="10dp"
+                    android:orientation="vertical"
+                    android:overScrollMode="never"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/repeatText" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.DayView
+                android:id="@+id/weekday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_16"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/repeat" />
+
+            <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.MonthView
+                android:id="@+id/month"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_16"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/repeat" />
+
+            <androidx.constraintlayout.widget.Barrier
+                android:id="@+id/barrier"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:barrierDirection="bottom"
+                app:constraint_referenced_ids="month,weekday,repeat" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/alertTone"
+                android:layout_width="0dp"
+                android:layout_marginBottom="20dp"
+                app:layout_constraintVertical_bias="0"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:background="@drawable/bg_white_radius8"
+                android:padding="10dp"
+                app:layout_constraintEnd_toEndOf="@+id/repeat"
+                app:layout_constraintStart_toStartOf="@+id/repeat"
+                app:layout_constraintTop_toBottomOf="@+id/barrier">
+
+                <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/alert_tone"
+                    android:textColor="@color/newtral_6"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_view"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+                    android:id="@+id/mTxtNameSound"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:ellipsize="end"
+                    android:gravity="center|end"
+                    android:maxLines="1"
+                    android:text="@string/default_"
+                    android:textColor="@color/newtral_6"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView9"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toEndOf="@+id/textView13"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_percent="0.5" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <View
+        android:id="@+id/maskPopup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="gone" />
+</androidx.constraintlayout.widget.ConstraintLayout>

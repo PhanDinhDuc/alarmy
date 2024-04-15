@@ -1,0 +1,414 @@
+<resources>
+    <!-- English -->
+    <string name="lg_english">English</string>
+
+    <!-- French -->
+    <string name="lg_french">French</string>
+
+    <!-- German -->
+    <!-- Hindi -->
+    <string name="lg_hindi">Hindi</string>
+
+    <string name="lg_china">Chinese</string>
+
+    <!-- Spanish -->
+    <string name="lg_spanish">Spanish</string>
+
+    <!-- Portuguese -->
+    <string name="lg_portuguese">Portuguese</string>
+
+    <string name="app_name">Alarmy</string>
+
+    <string name="language">Language</string>
+
+    <string name="rate_us">Rate Us</string>
+    <string name="rate_on_gg">Do you like the app?</string>
+    <string name="oh_no">Oh No!</string>
+    <string name="we_like_you_too">We love you too!</string>
+    <string name="txt_des_rate_1">Please give us some feedback</string>
+    <string name="txt_des_rate_2">Please give us some feedback</string>
+    <string name="txt_des_rate_3">Please give us some feedback</string>
+    <string name="txt_des_rate_4">Thanks for your feedback</string>
+    <string name="txt_des_rate_5">Thanks for your feedback</string>
+    <string name="txt_des_rate_0">Let us know your experience</string>
+
+    <string name="permission_device">requires permission to use the {device’s camera and folder}</string>
+
+    <string name="txt_music">Music</string>
+
+
+    <string name="alarm">Alarm</string>
+
+    <string name="alarm_name">Alarm name:</string>
+
+    <string name="enter">Enter</string>
+
+    <string name="MO">MO</string>
+    <string name="TU">TU</string>
+    <string name="WE">WE</string>
+    <string name="TH">TH</string>
+    <string name="FR">FR</string>
+    <string name="SA">SA</string>
+    <string name="SU">SU</string>
+
+    <string name="monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+    <string name="Sunday">Sunday</string>
+
+    <string name="task">Task</string>
+    <string name="alarm_sound">Alarm sound</string>
+    <string name="snooze">Snooze</string>
+    <string name="default_">Default</string>
+    <string name="workingDays">Working days</string>
+    <string name="weekend">Weekend</string>
+    <string name="everyDay">Everyday</string>
+    <string name="bedtime">Bedtime</string>
+    <string name="reminder">Reminders</string>
+    <string name="myday">My day</string>
+    <string name="setting">Setting</string>
+    <string name="quick_alarm">Quick Alarm</string>
+    <string name="save">Save</string>
+    <string name="bedtime_">Bedtime: </string>
+    <string name="sleep_sound">Sleep sounds</string>
+    <string name="minute">%d m</string>
+    <string name="bedtime_setting">Bedtime settings</string>
+    <string name="confirm">Confirm</string>
+    <string name="sound_timer">Sound timer</string>
+
+
+    //type sound
+    <string name="all">All</string>
+    <string name="nature">Nature</string>
+    <string name="meditation">Meditation</string>
+    <string name="white_music">White music</string>
+    <string name="ASMR">ASMR</string>
+
+    //name sound
+    <string name="slightly_rain">Slightly rain</string>
+    <string name="soluble_bath">Soluble bath salts</string>
+    <string name="fireplace">Fireplace</string>
+    <string name="light_white_noise">Light white noise</string>
+    <string name="type_the_keyboard">Type the keyboard</string>
+    <string name="wave">Waves</string>
+    <string name="moderate_rain">Moderate rain</string>
+    <string name="river_in_forest">River in the forest</string>
+    <string name="heavy_rain_1">Heavy rain</string>
+    <string name="heavy_rain_2">Heavy rain</string>
+    <string name="temple_bell">Temple bell</string>
+    <string name="wind_chimes">Wind chimes</string>
+    <string name="zen">Zen</string>
+    <string name="white_noise">White noise</string>
+    <string name="brain_wave">Brainwave</string>
+    <string name="heartbeat">Heartbeat</string>
+    <string name="alpha_wave">Alpha wave</string>
+    <string name="beta_wave">Beta wave</string>
+    <string name="tea">Tea</string>
+    <string name="relaxing_bath">Relaxing bath</string>
+    <string name="type_writer">Typewrite</string>
+    <string name="coloring_book">Coloring book</string>
+    <string name="pencil">Pencil</string>
+
+    <string name="bedtime_running">Sound bedtime is running</string>
+
+
+    <string name="text_intro1">Helping you wake up daily</string>
+    <string name="text_intro2">Instant wake up</string>
+    <string name="text_intro3">Good morning with all our tools</string>
+    <string name="text1_intro1">Waking up on time makes your day a success</string>
+    <string name="text2_intro1">Tasks, sounds... help break your sleep inertia</string>
+    <string name="text3_intro1">Get access to timers, reminder, and other tools to help you organize your day</string>
+    <string name="text_create_first">Create first Alarm</string>
+    <string name="next">Next</string>
+    <string name="set_alarm_time">Set first alarm time</string>
+    <string name="choose_sound">Choose the sound you like</string>
+
+    <string name="alarm_bell">Alarm bell</string>
+    <string name="peaceful">Peaceful Sound</string>
+    <string name="happy_sound">Happy Sound</string>
+    <string name="loud_sound">Loud Sound</string>
+
+    <string name="math">Math</string>
+    <string name="memorize">Memorize</string>
+    <string name="shake_action">Shake</string>
+    <string name="shake_the_phone">Shake the phone</string>
+    <string name="rewrite">Rewrite</string>
+    <string name="step">Step</string>
+    <string name="qr_code">Barcode/QR code</string>
+    <string name="turn_off">No Task</string>
+    <string name="alarm_task">Choose the alarm task you like</string>
+    <string name="next_alarm">Next alarm</string>
+    <string name="time_will_ring">The alarm will ring after %dh%dmin</string>
+    <string name="time_will_ring_min">The alarm will ring after %dmin</string>
+    <string name="time_will_ring_day">The alarm will ring after %d day %d hours</string>
+    <string name="alarm_comming_soon">Alarm coming soon</string>
+
+    <string name="delete">Delete</string>
+    <string name="priview">Preview</string>
+    <string name="template">Set as template</string>
+    <string name="undo_skip">Undo skip next</string>
+    <string name="duplicate">Duplicate</string>
+    <string name="start_the_task">Start the task</string>
+    <string name="exit_priview">Exit preview</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="no_alarm_turn_on">No alarm turned on</string>
+    <string name="create_new">No upcoming alarms</string>
+
+
+    <string name="squat">Squat</string>
+    <string name="here_an_example">Here’s an example:</string>
+    <string name="here_an_example_squat">Take your phone and squat until you have reached the number of squats you have chosen. The alarm will go off</string>
+    <string name="here_an_example_step">Take your phone and walk until you have reached the number of steps you have chosen. The alarm will go off</string>
+    <string name="here_an_example_shake">Shake your phone as many times as you have selected. The alarm will go off</string>
+
+
+    <string name="number_of_squat">Number of squats</string>
+    <string name="number_of_shake">Number of shakes</string>
+    <string name="action_save">Save</string>
+    <string name="action_preview">Preview</string>
+    <string name="stand_up_and_get_ready">Stand up and get ready</string>
+    <string name="exit_preview">Exit preview</string>
+    <string name="start_now">Start now</string>
+    <string name="hold_with_both_hands">Hold with both hands</string>
+    <string name="start_squat">Start squatting</string>
+    <string name="txt_off">Off</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="txtok">Ok</string>
+    <string name="txtDefault">Default</string>
+    <string name="txt_more_task">More task</string>
+    <string name="number_of_steps">Number of steps</string>
+    <string name="number_of_tasks">Number of tasks</string>
+    <string name="number_of_equations">Number of equations</string>
+    <string name="none">None</string>
+    <string name="easiest">Easiest</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="hardest">Hardest</string>
+    <!-- Pad numbers -->
+    <string name="pad_number_0" translatable="false">0</string>
+    <string name="pad_number_1" translatable="false">1</string>
+    <string name="pad_number_2" translatable="false">2</string>
+    <string name="pad_number_3" translatable="false">3</string>
+    <string name="pad_number_4" translatable="false">4</string>
+    <string name="pad_number_5" translatable="false">5</string>
+    <string name="pad_number_6" translatable="false">6</string>
+    <string name="pad_number_7" translatable="false">7</string>
+    <string name="pad_number_8" translatable="false">8</string>
+    <string name="pad_number_9" translatable="false">9</string>
+
+
+    <!-- Content Description -->
+    <string name="cd_back_button" translatable="false">Back button</string>
+    <string name="cd_validate_button" translatable="false">Validate button</string>
+    <string name="next_round">Next round</string>
+    <string name="tv_check">You made a mistake! Fix it</string>
+    <string name="choose_task_title">Choose task</string>
+    <string name="alarm_preview_is_over">Alarm preview is over</string>
+    <string name="awaken_the_brain">Awaken the brain</string>
+    <string name="awaken_the_body">Awaken the body</string>
+    <string name="permision_title">The Application needs Below Permission to provide phone finder by clapping</string>
+    <string name="permission_label">Permission</string>
+    <string name="go_title">Go</string>
+    <string name="exact_alarm">Exact alarm</string>
+    <string name="snoozed_time">Snooze %d time</string>
+    <string name="cant_enable_snooze">Cannot enable snooze in preview mode</string>
+    <string name="dont_set_alarm">Dont set alarm</string>
+    <string name="click_create">Click “add alarm button” to create an alarm</string>
+    <string name="keep_in_mind">Keep in mind (%d)</string>
+    <string name="detects_color_cells">Detects %d color cells</string>
+    <string name="incorrect">Incorrect!</string>
+    <string name="try_again">Please try again</string>
+
+    <string name="delete_alarm">Delete alarm. </string>
+    <string name="alarm_is_set_hour">Alarm is set for %d h %d min from now</string>
+    <string name="alarm_is_set_day">Alarm is set for %d day %d hour from now</string>
+    <string name="alarm_priview_over">Alarm preview is over</string>
+    <string name="txt_find_and_scan_the_code_part_of_your_morning_schedule">Find and scan the code part of your\nmorning schedule</string>
+    <string name="txt_addqr">Add barcode/QR code</string>
+    <string name="txt_change_name">Change name</string>
+    <string name="txt_delete">Delete</string>
+    <string name="txt_delete_select_code">Delete selected code?</string>
+    <string name="txtsave">Save</string>
+    <string name="txtdelete">Delete</string>
+    <string name="txtqrtitle">Barcode name/QR code</string>
+    <string name="notification">Notification</string>
+    <string name="recognition">Recognition</string>
+    <string name="camera">Camera</string>
+    <string name="title_gr_code">Get ready to scan barcode/QR code</string>
+    <string name="ready">I\'m ready</string>
+    <string name="barcode_note_match">Barcode does not match</string>
+    <string name="you_made_a_mistake_fix_it">You made a mistake! Fix it</string>
+
+    <string name="skip_next">Skip next</string>
+    <string name="start">Start</string>
+    <string name="txt_save_on_exit">Discard unsaved changes before leaving?</string>
+    <string name="txt_back">Back</string>
+    <string name="txt_add">Add</string>
+    <string name="apply">Apply</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="alarm_setting">Alarm setting</string>
+    <string name="general">General</string>
+    <string name="share">Share</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="volume_sound">Volume and sound</string>
+    <string name="increase_volume">Gradually increase volume</string>
+    <string name="task_dismissal">Task dismissal</string>
+    <string name="task_time_limit">Task time limit</string>
+    <string name="dismiss_snooze">Dismiss and snooze</string>
+    <string name="auto_dismiss">Auto dismiss</string>
+    <string name="shake_sensitivity">Shake sensitivity</string>
+    <string name="upcoming_alarms">Upcoming Alarms</string>
+    <string name="sort_by_enable">Sort by enabling alarms first</string>
+    <string name="during_task">Mute during mission</string>
+    <string name="high">High (hard to turn off)</string>
+    <string name="normal">Normal</string>
+    <string name="low">Low (easy to turn off)</string>
+    <string name="snooze_limit">Snooze limit</string>
+    <string name="show_next_alarms">Show next alarm in notification drawer</string>
+    <string name="tv_next_alarm">Next Alarm will appear as a notification</string>
+    <string name="sort_alarm_by">Sort alarm</string>
+    <string name="sort_by_alarm_recent">Sort by upcoming alarm</string>
+
+    <string name="off">Off</string>
+    <string name="duration_1m">1m</string>
+    <string name="duration_5m">5m</string>
+    <string name="duration_10m">10m</string>
+    <string name="duration_15m">15m</string>
+    <string name="duration_20m">20m</string>
+    <string name="duration_25m">25m</string>
+    <string name="duration_30m">30m</string>
+    <string name="duration_60m">60m</string>
+    <string name="duration_10s">10s</string>
+    <string name="duration_15s">15s</string>
+    <string name="duration_20s">20s</string>
+    <string name="duration_30s">30s</string>
+    <string name="duration_40s">40s</string>
+    <string name="duration_50s">50s</string>
+    <string name="duration_60s">60s</string>
+    <string name="unlimited">Unlimited</string>
+    <string name="time1">1 time</string>
+    <string name="time2">2 times</string>
+    <string name="time3">3 times</string>
+    <string name="time4">4 times</string>
+    <string name="time5">5 times</string>
+    <string name="title_duration_1m">1 minute</string>
+    <string name="title_duration_5m">5 minute</string>
+    <string name="title_duration_10m">10 minute</string>
+    <string name="title_duration_15m">15 minute</string>
+    <string name="title_duration_20m">20 minute</string>
+    <string name="title_duration_25m">25 minute</string>
+    <string name="title_duration_30m">30 minute</string>
+    <string name="title_duration_60m">60 minute</string>
+    <string name="title_duration_10s">10 seconds</string>
+    <string name="title_duration_15s">15 seconds</string>
+    <string name="title_duration_20s">20 seconds</string>
+    <string name="title_duration_30s">30 seconds</string>
+    <string name="title_duration_40s">40 seconds</string>
+    <string name="title_duration_50s">50 seconds</string>
+    <string name="title_duration_60s">60 seconds</string>
+    <string name="space_min">%d min</string>
+    <string name="not_space_min">%dmin</string>
+    <string name="not_space_minute">%dm</string>
+    <string name="ringtone">Ringtone</string>
+
+    <string name="alarm_is_running">Alarm is ringing</string>
+    <string name="tap_to_dismiss">Tap to dismiss</string>
+
+    <string name="exit">Exit</string>
+    <string name="rate">Rate</string>
+    <string name="this_action_can_contain_ads">This action can contain ads</string>
+    <string name="is_empty_list">Your device doesn\'t have the right files</string>
+
+    <string name="new_version">A new version is available</string>
+    <string name="new_version_msg">Please update to continue using the application</string>
+    <string name="update">Update</string>
+    <string name="you_have_added">You have added this code before</string>
+    <string name="my_day_title">My day</string>
+    <string name="morning_feeling_title">Morning feeling</string>
+    <string name="diary_of_the_day_title">Diary of the day</string>
+    <string name="horoscope_title">Horoscope</string>
+    <string name="horoscope_detail_title">Wake up every morning to discover new things! Tell us your date of birth.</string>
+    <string name="diary_of_day_detail_title">Jot down your day\'s activities</string>
+    <string name="how_are_you_feeling_now_title">How are you feeling now?</string>
+    <string name="please_select_one_option">Please select one option</string>
+    <string name="cheery">Cheery</string>
+    <string name="calm_down">Calm down</string>
+    <string name="unfeeling">Unfeeling</string>
+    <string name="sleepy">Sleepy</string>
+    <string name="tired">Tired</string>
+    <string name="angry">Angry</string>
+    <string name="what_do_you_have_planned_for_today">What do you have planned for today?</string>
+    <string name="more_details">More details</string>
+    <string name="how_is_the_weather_today">How is the weather today?</string>
+    <string name="empty_feeling_title">You haven\'t shared any thoughts on that\nmorning. Press to add feeling to the morning</string>
+    <string name="check_now">Check now</string>
+    <string name="empty_diary">You don\'t have any plans recorded for\nthis day</string>
+    <string name="horoscope_today">Horoscope today</string>
+    <string name="horoscope_tomorrow">Horoscope tomorrow</string>
+    <string name="an_error_has_been_occurred">An Error has been occurred</string>
+    <string name="please_try_again_later">Please try again later!</string>
+    <string name="aries">Aries</string>
+    <string name="taurus">Taurus</string>
+    <string name="gemini">Gemini</string>
+    <string name="cancer">Cancer</string>
+    <string name="leo">Leo</string>
+    <string name="virgo">Virgo</string>
+    <string name="libra">Libra</string>
+    <string name="scorpio">Scorpio</string>
+    <string name="sagittarius">Sagittarius</string>
+    <string name="capricorn">Capricorn</string>
+    <string name="aquarius">Aquarius</string>
+    <string name="pisces">Pisces</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="yellow">Yellow</string>
+    <string name="white">White</string>
+    <string name="silver">Silver</string>
+    <string name="gold">Gold</string>
+    <string name="brown">Brown</string>
+    <string name="pink">Pink</string>
+    <string name="blue">Blue</string>
+    <string name="black">Black</string>
+    <string name="purple">Purple</string>
+    <string name="grey">Grey</string>
+    <string name="light_green">Light Green</string>
+    <string name="reminders">Reminders</string>
+    <string name="no_reminders">No reminders</string>
+    <string name="click_add_reminders_button_to_create_an_alert">Click “add reminders button” to create an alert</string>
+    <string name="add_reminders">Add reminders</string>
+    <string name="remind_me_about">Remind me about...</string>
+    <string name="date_time">Date &amp; Time</string>
+    <string name="alert_tone">Alert tone</string>
+
+    <string name="repeat_none">Does not repeat</string>
+    <string name="repeat_daily">Repeat daily</string>
+    <string name="repeat_weekly">Repeats weekly</string>
+    <string name="repeat_monthly">Repeats monthly</string>
+    <string name="repeat_annually">Repeats annually</string>
+    <string name="repeat_hour">Every N hours</string>
+    <string name="repeat_several">Several times a day</string>
+    <string name="every_hours">Every %1$d hours</string>
+    <string name="times">%1$d times</string>
+    <string name="time_idx">Time %1$d</string>
+    <string name="repeat_cycle">Repeat cycle</string>
+    <string name="reminder_count">Reminder count</string>
+    <string name="edit_reminders">Edit reminders</string>
+    <string name="edit">Edit</string>
+    <string name="close">Close</string>
+    <string name="do_you_want_to_delete_reminder">Do you want to delete this reminder?</string>
+    <string name="delete_success">Deleted reminder</string>
+    <string name="today_lbl">Today</string>
+    <string name="lucky_color">Lucky Color</string>
+    <string name="lucky_number">Lucky number</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="gender">Gender</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="choose_sticker">Choose sticker</string>
+    <string name="notification_policy">Notification Policy</string>
+
+</resources>

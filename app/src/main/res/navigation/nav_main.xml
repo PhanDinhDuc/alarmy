@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/settingTaskMathFragment">
+    <action
+        android:id="@+id/action_to_memories"
+        app:destination="@id/settingTaskMemoriesFragment"
+        app:popUpTo="@id/nav_main" />
+    <action
+        android:id="@+id/action_to_rewrite"
+        app:destination="@id/settingTaskRewriteFragment"
+        app:popUpTo="@id/nav_main" />
+    <action
+        android:id="@+id/action_to_math"
+        app:destination="@id/settingTaskMathFragment"
+        app:popUpTo="@id/nav_main" />
+
+    <action
+        android:id="@+id/action_to_step"
+        app:destination="@id/stepTaskFragment"
+        app:popUpTo="@id/nav_main" />
+
+    <action
+        android:id="@+id/action_to_squat"
+        app:destination="@id/squatTaskFragment"
+        app:popUpTo="@id/nav_main" />
+
+    <action
+        android:id="@+id/action_to_shake"
+        app:destination="@id/shakeTaskFragment"
+        app:popUpTo="@id/nav_main" />
+    <action
+        android:id="@+id/action_to_qr"
+        app:destination="@id/QRCodeFragment"
+        app:popUpTo="@navigation/nav_main" />
+
+    <action
+        android:id="@+id/action_to_listBarcode"
+        app:destination="@id/fragmentListBarcode"
+        app:popUpTo="@navigation/nav_main" />
+
+    <fragment
+        android:id="@+id/settingTaskMathFragment"
+        android:name="com.alarm.clock.reminder.alarmclock.simplealarm.view.task.math.SettingTaskMathFragment"
+        android:label="SettingTaskMathFragment" />
+    <fragment
+        android:id="@+id/squatTaskFragment"
+        android:name="com.alarm.clock.reminder.alarmclock.simplealarm.view.task.squat.SquatTaskFragment"
+        android:label="SquatTaskFragment" />
+    <fragment
+        tools:layout="@layout/fragment_task_step"
+        android:id="@+id/stepTaskFragment"
+        android:name="com.alarm.clock.reminder.alarmclock.simplealarm.view.step.StepTaskFragment"
+        android:label="StepTaskFragment" />
+    <fragment
+        android:id="@+id/settingTaskRewriteFragment"
+        android:name="com.alarm.clock.reminder.alarmclock.simplealarm.view.task.rewrite.SettingTaskRewriteFragment"
+        android:label="SettingTaskRewriteFragment" />
+    <fragment
+        android:id="@+id/settingTaskMemoriesFragment"
+        android:name="com.alarm.clock.reminder.alarmclock.simplealarm.view.task.memories.SettingTaskMemoriesFragment"
+        android:label="SettingTaskMemoriesFragment" />
+    <fragment
+        android:id="@+id/shakeTaskFragment"
+        android:name="com.alarm.clock.reminder.alarmclock.simplealarm.view.shake.ShakeTaskFragment"
+        android:label="ShakeTaskFragment" />
+    <fragment
+        android:id="@+id/QRCodeFragment"
+        android:name="com.alarm.clock.reminder.alarmclock.simplealarm.view.task.qrcode.QRCodeTaskFragment"
+        android:label="QRCodeFragment" >
+        <action
+            android:id="@+id/action_QRCodeFragment_to_fragmentListBarcode"
+            app:destination="@id/fragmentListBarcode" />
+        <action
+            android:id="@+id/action_QRCodeFragment_to_barcodeScanningFragment2"
+            app:destination="@id/barcodeScanningFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentListBarcode"
+        android:name="com.alarm.clock.reminder.alarmclock.simplealarm.view.task.qrcode.FragmentListBarcode"
+        android:label="FragmentListBarcode" >
+        <action
+            android:id="@+id/action_fragmentListBarcode_to_barcodeScanningFragment2"
+            app:destination="@id/barcodeScanningFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/barcodeScanningFragment2"
+        android:name="com.alarm.clock.reminder.alarmclock.simplealarm.view.task.qrcode.BarcodeScanningFragment"
+        android:label="BarcodeScanningFragment" >
+        <action
+            android:id="@+id/action_barcodeScanningFragment2_to_fragmentListBarcode"
+            app:destination="@id/fragmentListBarcode" />
+    </fragment>
+
+
+</navigation>

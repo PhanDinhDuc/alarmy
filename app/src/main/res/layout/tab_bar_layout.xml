@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/transparent">
+
+    <com.alarm.clock.reminder.alarmclock.simplealarm.view.home.TabBarItemView
+        android:id="@+id/tab0"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="18dp"
+        android:tag="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tab1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tab_icon="@drawable/ic_bedtime"
+        app:tab_icon_selected="@drawable/ic_bedtime_s"
+        app:tab_text="@string/bedtime" />
+
+
+    <com.alarm.clock.reminder.alarmclock.simplealarm.view.home.TabBarItemView
+        android:id="@+id/tab1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:tag="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tab2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tab0"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tab_icon="@drawable/ic_reminders"
+        app:tab_icon_selected="@drawable/ic_reminders_s"
+        app:tab_text="@string/reminder" />
+
+    <com.alarm.clock.reminder.alarmclock.simplealarm.view.home.TabBarItemView
+        android:id="@+id/tab2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:tag="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tab3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tab1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tab_text="@string/alarm" />
+
+    <com.alarm.clock.reminder.alarmclock.simplealarm.view.home.TabBarItemView
+        android:id="@+id/tab3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:tag="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tab4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tab2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tab_icon="@drawable/ic_my_day"
+        app:tab_icon_selected="@drawable/ic_my_day_s"
+        app:tab_text="@string/myday" />
+
+
+    <com.alarm.clock.reminder.alarmclock.simplealarm.view.home.TabBarItemView
+        android:id="@+id/tab4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="18dp"
+        android:tag="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tab3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tab_icon="@drawable/ic_setting"
+        app:tab_icon_selected="@drawable/ic_setting_s"
+        app:tab_text="@string/setting" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

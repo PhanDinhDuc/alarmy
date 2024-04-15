@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_background"
+        android:padding="@dimen/dimen_16">
+
+
+        <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.TaskLevelView
+            android:id="@+id/taskLevelView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_item_setting"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/view6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_16"
+            android:background="@drawable/bg_item_setting"
+            android:padding="@dimen/dimen_16"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/taskLevelView">
+
+            <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/here_an_example"
+                android:textColor="@color/textPrimaryColor"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="@+id/view6"
+                app:layout_constraintStart_toStartOf="@+id/view6"
+                app:layout_constraintTop_toTopOf="@+id/view6" />
+
+            <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+                android:id="@+id/tv_example"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_16"
+                android:padding="1dp"
+                android:text="3+4="
+                android:textColor="@color/textPrimaryColor"
+                android:textSize="@dimen/dimen_24"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/tv_title"
+                app:layout_constraintStart_toStartOf="@+id/tv_title"
+                app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.NumberEquationsView
+            android:id="@+id/numberEquationsView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_16"
+            android:background="@drawable/bg_item_setting"
+            app:currentValue="1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view6"
+            app:maxValue="20"
+            app:minValue="1" />
+
+
+        <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.CustomButton
+            android:id="@+id/btnPreview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="8dp"
+            android:autoSizeMaxTextSize="16sp"
+            android:autoSizeTextType="uniform"
+            android:lines="1"
+            android:maxLines="1"
+            android:text="@string/action_preview"
+            android:textSize="16sp"
+            app:btn_type="disable"
+            app:layout_constraintEnd_toStartOf="@+id/btnSave"
+            app:layout_constraintStart_toStartOf="@+id/numberEquationsView"
+            app:layout_constraintTop_toBottomOf="@+id/numberEquationsView" />
+
+        <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.CustomButton
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:autoSizeMaxTextSize="16sp"
+            android:autoSizeTextType="uniform"
+            android:lines="1"
+            android:maxLines="1"
+            android:text="@string/action_save"
+            android:textSize="16sp"
+            app:btn_type="primary"
+            app:layout_constraintEnd_toEndOf="@+id/numberEquationsView"
+            app:layout_constraintStart_toEndOf="@+id/btnPreview"
+            app:layout_constraintTop_toBottomOf="@+id/numberEquationsView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- French -->
+    <string name="lg_french">法语</string>
+
+    <!-- English -->
+    <string name="lg_english">英语</string>
+
+    <!-- Hindi -->
+    <string name="lg_hindi">印地语</string>
+
+    <!-- China -->
+    <string name="lg_china">中文</string>
+
+    <!-- Spanish -->
+    <string name="lg_spanish">西班牙语</string>
+
+    <!-- Portuguese -->
+    <string name="lg_portuguese">葡萄牙语</string>
+
+    <!-- Alarmy -->
+    <string name="app_name">惊人</string>
+
+    <!-- Get Started -->
+
+    <!-- Language -->
+    <string name="language">语言</string>
+
+    <!-- Rate Us -->
+    <string name="rate_us">评价我们</string>
+
+    <!-- Rate on Google Play -->
+    <string name="rate_on_gg">你喜欢这个应用程序吗？</string>
+
+    <!-- Oh No! -->
+    <string name="oh_no">不好了！</string>
+
+    <!-- Amazing! -->
+
+    <!-- We like you too! -->
+    <string name="we_like_you_too">我们也爱你！</string>
+
+    <!-- We\'re sorry you had a bad experience. Please leave us some feedback. -->
+    <string name="txt_des_rate_1">请给我们一些反馈</string>
+
+    <!-- We understand you are not happy with the service you received. Please leave us some feedback. -->
+    <string name="txt_des_rate_2">请给我们一些反馈</string>
+
+    <!-- We would like the opportunity to investigate your feedback further. -->
+    <string name="txt_des_rate_3">请给我们一些反馈</string>
+
+    <!-- Thank you so much for the wonderful review. -->
+    <string name="txt_des_rate_4">感谢您的反馈</string>
+
+    <!-- Thank you so much for taking the time to leave us your review. -->
+    <string name="txt_des_rate_5">感谢您的反馈</string>
+    <string name="txt_des_rate_0">让我们知道您的经验</string>
+    <!-- Permission -->
+
+    <!-- Go -->
+
+    <!-- requires permission to use the {device\'s camera and folder} -->
+    <string name="permission_device">需要使用{设备的相机和文件夹的权限}</string>
+
+    <!-- Storage -->
+
+    <!-- Camera &amp; Recorder -->
+
+    <!-- Music -->
+    <string name="txt_music">音乐</string>
+
+    <!-- Record Audio -->
+
+    <!-- Add Alarm -->
+
+    <!-- Alarm -->
+    <string name="alarm">警报</string>
+
+    <!-- Alarm name: -->
+    <string name="alarm_name">警报名称：</string>
+
+    <!-- Enter -->
+    <string name="enter">进入</string>
+
+    <!-- MO -->
+    <string name="MO">MO</string>
+
+    <!-- TU -->
+    <string name="TU">TU</string>
+
+    <!-- WE -->
+    <string name="WE">WE</string>
+
+    <!-- TH -->
+    <string name="TH">TH</string>
+
+    <!-- FR -->
+    <string name="FR">FR</string>
+
+    <!-- SA -->
+    <string name="SA">SA</string>
+
+    <!-- SU -->
+    <string name="SU">SU</string>
+
+    <!-- Moday -->
+    <string name="monday">模式</string>
+
+    <!-- Tuesday -->
+    <string name="Tuesday">周二</string>
+
+    <!-- Wednesday -->
+    <string name="Wednesday">周三</string>
+
+    <!-- Thursday -->
+    <string name="Thursday">周四</string>
+
+    <!-- Friday -->
+    <string name="Friday">星期五</string>
+
+    <!-- Saturday -->
+    <string name="Saturday">周六</string>
+
+    <!-- Sunday -->
+    <string name="Sunday">星期日</string>
+
+    <!-- Task -->
+    <string name="task">任务</string>
+
+    <!-- Alarm sound -->
+    <string name="alarm_sound">闹铃声</string>
+
+    <!-- Snooze -->
+    <string name="snooze">打盹</string>
+
+    <!-- Default -->
+    <string name="default_">默认</string>
+
+    <!-- Working days -->
+    <string name="workingDays">工作日</string>
+
+    <!-- Weekend -->
+    <string name="weekend">周末</string>
+
+    <!-- Everyday -->
+    <string name="everyDay">每天</string>
+
+    <!-- Bedtime -->
+    <string name="bedtime">睡前</string>
+
+    <!-- Reminder -->
+    <string name="reminder">提醒事项</string>
+
+    <!-- My day -->
+    <string name="myday">我的一天</string>
+
+    <!-- Setting -->
+    <string name="setting">环境</string>
+
+    <!-- Quick Alarm -->
+    <string name="quick_alarm">快速警报</string>
+
+    <!-- Save -->
+    <string name="save">节省</string>
+
+    <!-- Bedtime: -->
+    <string name="bedtime_">睡前：</string>
+
+    <!-- Sleep sounds -->
+    <string name="sleep_sound">睡眠声音</string>
+
+    <!-- %d m -->
+    <string name="minute">%d 分钟</string>
+
+    <!-- Bedtime settings -->
+    <string name="bedtime_setting">就寝时间设置</string>
+
+    <!-- Confirm -->
+    <string name="confirm">确认</string>
+
+    <!-- Sound timer -->
+    <string name="sound_timer">声音计时器</string>
+
+    <!-- 10 min -->
+
+    <!-- 20 min -->
+
+    <!-- 30 min -->
+
+    <!-- 40 min -->
+
+    <!-- 50 min -->
+
+    <!-- 60 min -->
+
+    <!-- All -->
+    <string name="all">全部</string>
+
+    <!-- Nature -->
+    <string name="nature">自然</string>
+
+    <!-- Meditation -->
+    <string name="meditation">冥想</string>
+
+    <!-- White music -->
+    <string name="white_music">白音乐</string>
+
+    <!-- ASMR -->
+    <string name="ASMR">ASMR</string>
+
+    <!-- Slightly rain -->
+    <string name="slightly_rain">有点雨</string>
+
+    <!-- Soluble bath salts -->
+    <string name="soluble_bath">可溶性浴盐</string>
+
+    <!-- Fireplace -->
+    <string name="fireplace">壁炉</string>
+
+    <!-- Light white noise -->
+    <string name="light_white_noise">浅白噪声</string>
+
+    <!-- Type the keyboard -->
+    <string name="type_the_keyboard">输入键盘</string>
+
+    <!-- Waves -->
+    <string name="wave">波浪</string>
+
+    <!-- Moderate rain -->
+    <string name="moderate_rain">适度降雨</string>
+
+    <!-- River in the forest -->
+    <string name="river_in_forest">森林里的河</string>
+
+    <!-- Heavy rain -->
+    <string name="heavy_rain_1">倾盆大雨</string>
+
+    <!-- Heavy rain -->
+    <string name="heavy_rain_2">倾盆大雨</string>
+
+    <!-- Temple bell -->
+    <string name="temple_bell">寺庙铃</string>
+
+    <!-- Wind chimes -->
+    <string name="wind_chimes">风铃</string>
+
+    <!-- Zen -->
+    <string name="zen">禅</string>
+
+    <!-- White noise -->
+    <string name="white_noise">白噪声</string>
+
+    <!-- Brainwave -->
+    <string name="brain_wave">脑电波</string>
+
+    <!-- Heartbeat -->
+    <string name="heartbeat">心跳</string>
+
+    <!-- Alpha wave -->
+    <string name="alpha_wave">α波</string>
+
+    <!-- Beta wave -->
+    <string name="beta_wave">beta波</string>
+
+    <!-- Tea -->
+    <string name="tea">茶</string>
+
+    <!-- Relaxing bath -->
+    <string name="relaxing_bath">放松浴</string>
+
+    <!-- Typewrite -->
+    <string name="type_writer">打字机</string>
+
+    <!-- Coloring book -->
+    <string name="coloring_book">填色本</string>
+
+    <!-- Pencil -->
+    <string name="pencil">铅笔</string>
+
+    <!-- Welcome to Alarmy! -->
+
+    <!-- The alarm will do the duty to wake you up! -->
+
+    <!-- Helping you wake up daily -->
+    <string name="text_intro1">帮助您每天醒来</string>
+
+    <!-- Instant wake up -->
+    <string name="text_intro2">即时醒来</string>
+
+    <!-- Good morning with all our tools -->
+    <string name="text_intro3">早上好，我们所有的工具</string>
+
+    <!-- Waking up on time makes your day a success -->
+    <string name="text1_intro1">准时醒来使您的一天成功</string>
+
+    <!-- Tasks, sounds... help break your sleep inertia -->
+    <string name="text2_intro1">任务，声音...帮助打破睡眠惯性</string>
+
+    <!-- Get access to timers, reminder, and other tools to help you organize your day -->
+    <string name="text3_intro1">获取计时器，提醒和其他工具，以帮助您组织一天</string>
+
+    <!-- Create first Alarm -->
+    <string name="text_create_first">创建第一个警报</string>
+
+    <!-- Next -->
+    <string name="next">下一个</string>
+
+    <!-- Set first alarm time -->
+    <string name="set_alarm_time">设置第一个警报时间</string>
+
+    <!-- Choose the sound you like -->
+    <string name="choose_sound">选择您喜欢的声音</string>
+
+    <!-- Alarm bell -->
+    <string name="alarm_bell">警钟</string>
+
+    <!-- Peaceful Sound -->
+    <string name="peaceful">和平的声音</string>
+
+    <!-- Happy Sound -->
+    <string name="happy_sound">快乐的声音</string>
+
+    <!-- Loud Sound -->
+    <string name="loud_sound">大声的声音</string>
+
+    <!-- Math -->
+    <string name="math">数学</string>
+
+    <!-- Memorize -->
+    <string name="memorize">记住</string>
+
+    <!-- Shake -->
+
+    <!-- Shake -->
+    <string name="shake_action">摇</string>
+
+    <!-- Shake the phone -->
+    <string name="shake_the_phone">摇动电话</string>
+
+    <!-- Rewrite -->
+    <string name="rewrite">改写</string>
+
+    <!-- Step -->
+    <string name="step">步</string>
+
+    <!-- Barcode/QR code -->
+    <string name="qr_code">条形码/QR代码</string>
+
+    <!-- Turn off -->
+    <string name="turn_off">没有任务</string>
+
+    <!-- Choose the alarm task you like -->
+    <string name="alarm_task">选择您喜欢的警报任务</string>
+
+    <!-- Next alarm -->
+    <string name="next_alarm">下一个警报</string>
+
+    <!-- Alarm coming soon -->
+    <string name="alarm_comming_soon">警报即将发出</string>
+
+    <!-- Mission -->
+
+    <!-- Delete -->
+    <string name="delete">删除</string>
+
+    <!-- Preview -->
+    <string name="priview">预览</string>
+
+    <!-- Set as template -->
+    <string name="template">设置为模板</string>
+
+    <!-- Undo skip next -->
+    <string name="undo_skip">撤消接下来</string>
+
+    <!-- Duplicate -->
+    <string name="duplicate">复制</string>
+
+    <!-- Start the task -->
+    <string name="start_the_task">开始任务</string>
+
+    <!-- Exit preview -->
+    <string name="exit_priview">退出预览</string>
+
+    <!-- Dismiss -->
+    <string name="dismiss">解雇</string>
+
+    <!-- No alarm turn on -->
+    <string name="no_alarm_turn_on">没有警报打开</string>
+
+    <!-- No upcoming alarms -->
+    <string name="create_new">没有即将发出的警报</string>
+
+    <!-- Squat -->
+    <string name="squat">蹲</string>
+
+    <!-- Here\'s an example: -->
+    <string name="here_an_example">这是一个例子：</string>
+
+    <!-- Take your phone and squat until you have reached the number of squats you have chosen. The alarm will go off -->
+    <string name="here_an_example_squat">拿起手机和下蹲，直到达到所选的下蹲次数为止。警报会响起</string>
+
+    <!-- Take your phone and walk until you have reached the number of steps you have chosen. The alarm will go off -->
+    <string name="here_an_example_step">拿手机走路，直到达到所选步骤数。警报会响起</string>
+
+    <!-- Shake your phone as many times as you have selected. The alarm will go off -->
+    <string name="here_an_example_shake">尽可能多地摇动手机。警报会响起</string>
+
+    <!-- Number of squats -->
+    <string name="number_of_squat">下蹲数量</string>
+
+    <!-- Number of shakes -->
+    <string name="number_of_shake">摇动数量</string>
+
+    <!-- Save -->
+    <string name="action_save">节省</string>
+
+    <!-- Preview -->
+    <string name="action_preview">预览</string>
+
+    <!-- Stand up and get ready -->
+    <string name="stand_up_and_get_ready">站起来准备</string>
+
+    <!-- Exit preview -->
+    <string name="exit_preview">退出预览</string>
+
+    <!-- Start now -->
+    <string name="start_now">现在开始</string>
+
+    <!-- Hold with both hands -->
+    <string name="hold_with_both_hands">双手</string>
+
+    <!-- Start squatting -->
+    <string name="start_squat">开始蹲</string>
+
+    <!-- Off -->
+    <string name="txt_off">离开</string>
+
+    <!-- 1m -->
+
+    <!-- 5 m -->
+
+    <!-- 10 m -->
+
+    <!-- 15 m -->
+
+    <!-- 20 m -->
+
+    <!-- 25 m -->
+
+    <!-- 30 m -->
+
+    <!-- Cancel -->
+    <string name="txt_cancel">取消</string>
+
+    <!-- Ok -->
+    <string name="txtok">好的</string>
+
+    <!-- Default -->
+    <string name="txtDefault">默认</string>
+
+    <!-- More task -->
+    <string name="txt_more_task">更多任务</string>
+
+    <!-- Number of steps -->
+    <string name="number_of_steps">步骤数</string>
+
+    <!-- Number of tasks -->
+    <string name="number_of_tasks">任务数</string>
+
+    <!-- Number of equations -->
+    <string name="number_of_equations">方程数</string>
+
+    <!-- None -->
+    <string name="none">没有任何</string>
+
+    <!-- Easiest -->
+    <string name="easiest">最简单</string>
+
+    <!-- Easy -->
+    <string name="easy">简单的</string>
+
+    <!-- Medium -->
+    <string name="medium">中等的</string>
+
+    <!-- Hard -->
+    <string name="hard">难的</string>
+
+    <!-- Hardest -->
+    <string name="hardest">最难</string>
+
+    <!-- Preview -->
+
+    <!-- 0 -->
+    <string name="pad_number_0">0</string>
+
+    <!-- 1 -->
+    <string name="pad_number_1">1</string>
+
+    <!-- 2 -->
+    <string name="pad_number_2">2</string>
+
+    <!-- 3 -->
+    <string name="pad_number_3">3</string>
+
+    <!-- 4 -->
+    <string name="pad_number_4">4</string>
+
+    <!-- 5 -->
+    <string name="pad_number_5">5</string>
+
+    <!-- 6 -->
+    <string name="pad_number_6">6</string>
+
+    <!-- 7 -->
+    <string name="pad_number_7">7</string>
+
+    <!-- 8 -->
+    <string name="pad_number_8">8</string>
+
+    <!-- 9 -->
+    <string name="pad_number_9">9</string>
+
+    <!-- Back button -->
+    <string name="cd_back_button">返回键</string>
+
+    <!-- Validate button -->
+    <string name="cd_validate_button">验证按钮</string>
+
+    <!-- Next round -->
+    <string name="next_round">下一轮</string>
+
+    <!-- You made a mistake! Fix it -->
+    <string name="tv_check">你犯了一个错误！修理它</string>
+
+    <!-- Choose task -->
+    <string name="choose_task_title">选择任务</string>
+
+    <!-- Alarm preview is over -->
+    <string name="alarm_preview_is_over">警报预览已经结束</string>
+
+    <!-- Awaken the brain -->
+    <string name="awaken_the_brain">唤醒大脑</string>
+
+    <!-- Awaken the body -->
+    <string name="awaken_the_body">唤醒身体</string>
+
+    <!-- The Application needs Below Permission to provide phone finder by clapping -->
+    <string name="permision_title">该应用程序需要在下面的许可下通过拍手提供电话查找器</string>
+
+    <!-- Permission -->
+    <string name="permission_label">允许</string>
+
+    <!-- Go -->
+    <string name="go_title">去</string>
+
+    <!-- Notification -->
+
+    <!-- Exact alarm -->
+    <string name="exact_alarm">确切的警报</string>
+
+    <!-- Snooze %d time -->
+    <string name="snoozed_time">Snooze%d时间</string>
+
+    <!-- Cannot enable snooze in preview mode -->
+    <string name="cant_enable_snooze">无法在预览模式下启用贪睡</string>
+
+    <!-- Dont set alarm -->
+    <string name="dont_set_alarm">不要设置警报</string>
+
+    <!-- Click “add alarm button” to create an alarm -->
+    <string name="click_create">单击“添加警报按钮”以创建警报</string>
+
+    <!-- Keep in mind (%d) -->
+    <string name="keep_in_mind">请记住（%d）</string>
+
+    <!-- Detects %d color cells -->
+    <string name="detects_color_cells">检测%d彩色单元</string>
+
+    <!-- Incorrect! -->
+    <string name="incorrect">不正确！</string>
+
+    <!-- Please try again -->
+    <string name="try_again">请再试一次</string>
+
+    <!-- Delete alarm. -->
+    <string name="delete_alarm">删除警报。</string>
+
+    <string name="time_will_ring">闹钟将在%d小时%d分钟后响起</string>
+    <!-- The alarm will ring after %dmin -->
+    <string name="time_will_ring_min">%d分钟后闹钟将响起</string>
+    <!-- The alarm will ring after %d day %d hours -->
+    <string name="time_will_ring_day">闹钟将在%d天%d小时后响起</string>
+
+    <!-- Alarm is set for %d h %d min from now -->
+    <string name="alarm_is_set_hour">从现在开始设置警报为%d h%d min</string>
+
+    <!-- Alarm is set for %d day %d hour from now -->
+    <string name="alarm_is_set_day">警报设置为%d 天%d小时</string>
+
+    <!-- Alarm preview is over -->
+    <string name="alarm_priview_over">警报预览已经结束</string>
+
+    <!-- Barcode/QR code -->
+
+    <!-- Find and scan the code part of your morning schedule -->
+    <string name="txt_find_and_scan_the_code_part_of_your_morning_schedule">查找并扫描您早上时间表的代码部分</string>
+
+    <!-- Add barcode/QR code -->
+    <string name="txt_addqr">添加条形码/QR代码</string>
+
+    <!-- Change name -->
+    <string name="txt_change_name">更换名字</string>
+
+    <!-- Delete -->
+    <string name="txt_delete">删除</string>
+
+    <!-- Delete selected code? -->
+    <string name="txt_delete_select_code">删除选定的代码？</string>
+
+    <!-- Save -->
+    <string name="txtsave">节省</string>
+
+    <!-- Delete -->
+    <string name="txtdelete">删除</string>
+
+    <!-- Barcode name/QR code -->
+    <string name="txtqrtitle">条形码名称/QR代码</string>
+
+    <!-- Notification -->
+    <string name="notification">通知</string>
+
+    <!-- Recognition -->
+    <string name="recognition">认出</string>
+
+    <!-- Camera -->
+    <string name="camera">相机</string>
+
+    <!-- Get ready to scan barcode/QR code -->
+    <string name="title_gr_code">准备扫描条形码/QR代码</string>
+
+    <!-- I\\'m ready -->
+    <string name="ready">我准备好了</string>
+
+    <!-- Barcode does not match -->
+    <string name="barcode_note_match">条形码不匹配</string>
+
+    <!-- You made a mistake! Fix it -->
+    <string name="you_made_a_mistake_fix_it">你犯了一个错误！修理它</string>
+
+    <!-- Skip next -->
+    <string name="skip_next">下一个跳过</string>
+
+    <!-- Start -->
+    <string name="start">开始</string>
+
+    <!-- Discard unsaved changes before leaving? -->
+    <string name="txt_save_on_exit">离开前丢弃未保存的更改？</string>
+
+    <!-- Back -->
+    <string name="txt_back">后退</string>
+
+    <!-- Add -->
+    <string name="txt_add">添加</string>
+
+    <!-- Apply -->
+    <string name="apply">申请</string>
+
+    <!-- Hello blank fragment -->
+
+    <!-- Alarm setting -->
+    <string name="alarm_setting">警报设置</string>
+
+    <!-- General -->
+    <string name="general">一般的</string>
+
+    <!-- Share -->
+    <string name="share">分享</string>
+
+    <!-- Privacy Policy -->
+    <string name="privacy_policy">隐私政策</string>
+
+    <!-- Volume and sound -->
+    <string name="volume_sound">音量和声音</string>
+
+    <!-- Gradually increase volume -->
+    <string name="increase_volume">逐渐增加体积</string>
+
+    <!-- Task dismissal -->
+    <string name="task_dismissal">任务解雇</string>
+
+    <!-- Task time limit -->
+    <string name="task_time_limit">任务时间限制</string>
+
+    <!-- Dismiss and snooze -->
+    <string name="dismiss_snooze">解雇和贪睡</string>
+
+    <!-- Auto dismiss -->
+    <string name="auto_dismiss">自动解雇</string>
+
+    <!-- Shake sensitivity -->
+    <string name="shake_sensitivity">摇动灵敏度</string>
+
+    <!-- Upcoming Alarms -->
+    <string name="upcoming_alarms">即将发出的警报</string>
+
+    <!-- Show next alarm in notification drawer -->
+
+    <!-- Sort by enabling alarms first -->
+    <string name="sort_by_enable">首先启用警报排序</string>
+
+    <!-- Mute during mission -->
+    <string name="during_task">任务中的静音</string>
+
+    <!-- High (hard to turn off) -->
+    <string name="high">高（难以关闭）</string>
+
+    <!-- Normal -->
+    <string name="normal">普通的</string>
+
+    <!-- Low (easy to turn off) -->
+    <string name="low">低（易于关闭）</string>
+
+    <!-- Feedback -->
+
+    <!-- Dismiss alarm/Task -->
+
+    <!-- Default setting for new alarms -->
+
+    <!-- Set by default in the editor when adding alarms -->
+
+    <!-- Snooze limit\n -->
+    <string name="snooze_limit">贪睡限制</string>
+
+    <!-- Use the built-in speaker -->
+
+    <!-- Show next alarm in notification drawer -->
+    <string name="show_next_alarms">在通知抽屉中显示下一个警报</string>
+
+    <!-- Next Alarm will appear as a notification -->
+    <string name="tv_next_alarm">下一个警报将作为通知出现</string>
+
+    <!-- Alarm cheat prevention -->
+
+    <!-- Prevent phone turn-off during alarm -->
+
+    <!-- Prevent app uninstall during alarm -->
+
+    <!-- Mission dismissal -->
+
+    <!-- Mute during mission limit -->
+
+    <!-- Photo sensitivity -->
+
+    <!-- off -->
+    <string name="off">离开</string>
+
+    <!-- 1m -->
+    <string name="duration_1m">1减</string>
+
+    <!-- 5m -->
+    <string name="duration_5m">5减</string>
+
+    <!-- 10m -->
+    <string name="duration_10m">10减</string>
+
+    <!-- 15m -->
+    <string name="duration_15m">15减</string>
+
+    <!-- 20m -->
+    <string name="duration_20m">20减</string>
+
+    <!-- 25m -->
+    <string name="duration_25m">25减</string>
+
+    <!-- 30m -->
+    <string name="duration_30m">30减</string>
+
+    <!-- 60m -->
+    <string name="duration_60m">60减</string>
+
+    <!-- 10s -->
+    <string name="duration_10s">10秒</string>
+
+    <!-- 15s -->
+    <string name="duration_15s">15秒</string>
+
+    <!-- 20s -->
+    <string name="duration_20s">20秒</string>
+
+    <!-- 30s -->
+    <string name="duration_30s">30秒</string>
+
+    <!-- 40s -->
+    <string name="duration_40s">40秒</string>
+
+    <!-- 50s -->
+    <string name="duration_50s">50秒</string>
+
+    <!-- 60s -->
+    <string name="duration_60s">60秒</string>
+
+    <!-- Unlimited -->
+    <string name="unlimited">无限</string>
+
+    <!-- 1 time -->
+    <string name="time1">1次</string>
+
+    <!-- 2 times -->
+    <string name="time2">2次</string>
+
+    <!-- 3 times -->
+    <string name="time3">3次</string>
+
+    <!-- 4 times -->
+    <string name="time4">4次</string>
+
+    <!-- 5 times -->
+    <string name="time5">5次</string>
+
+    <!-- Maybe Later -->
+
+    <!-- The best we can get -->
+
+    <string name="title_duration_1m">1 分钟</string>
+    <string name="title_duration_5m">5 分钟</string>
+    <string name="title_duration_10m">10 分钟</string>
+    <string name="title_duration_15m">15 分钟</string>
+    <string name="title_duration_20m">20 分钟</string>
+    <string name="title_duration_25m">25 分钟</string>
+    <string name="title_duration_30m">30 分钟</string>
+    <string name="title_duration_60m">60 分钟</string>
+    <string name="title_duration_10s">10 秒</string>
+    <string name="title_duration_15s">15 秒</string>
+    <string name="title_duration_20s">20 秒</string>
+    <string name="title_duration_30s">30 秒</string>
+    <string name="title_duration_40s">40 秒</string>
+    <string name="title_duration_50s">50 秒</string>
+    <string name="title_duration_60s">60 秒</string>
+    <string name="space_min">%d 分钟</string>
+    <string name="not_space_min">%d分钟</string>
+    <string name="not_space_minute">%d分</string>
+    <string name="ringtone">铃声</string>
+    <string name="rate">率</string>
+    <string name="exit">退出</string>
+    <string name="this_action_can_contain_ads">此操作可以包含广告</string>
+
+    <string name="alarm_is_running">警報響起</string>
+    <string name="tap_to_dismiss">點擊即可關閉</string>
+    <string name="bedtime_running">声音就寝时间正在运行</string>
+    <string name="is_empty_list">您的设备没有正确的文件</string>
+    <string name="new_version">有新版本可用</string>
+    <string name="new_version_msg">请更新以继续使用该应用程序</string>
+    <string name="update">更新</string>
+    <string name="you_have_added">您之前已添加此代码</string>
+
+    <string name="sort_alarm_by">排序闹钟</string>
+    <string name="sort_by_alarm_recent">按即将到来的闹钟排序</string>
+
+    <string name="my_day_title">我的一天</string>
+    <string name="morning_feeling_title">早晨感觉</string>
+    <string name="diary_of_the_day_title">日记</string>
+    <string name="horoscope_title">星座</string>
+    <string name="horoscope_detail_title">每天早上醒来发现新事物！告诉我们你的出生日期。</string>
+    <string name="diary_of_day_detail_title">记下你的一天活动</string>
+    <string name="how_are_you_feeling_now_title">你现在感觉如何？</string>
+    <string name="please_select_one_option">请选择一个选项</string>
+    <string name="cheery">快乐的</string>
+    <string name="calm_down">冷静的</string>
+    <string name="unfeeling">无感情的</string>
+    <string name="sleepy">困倦的</string>
+    <string name="tired">疲倦的</string>
+    <string name="angry">生气的</string>
+    <string name="what_do_you_have_planned_for_today">你今天有什么计划？</string>
+    <string name="more_details">更多细节</string>
+    <string name="how_is_the_weather_today">今天天气怎么样？</string>
+    <string name="empty_feeling_title">你没有分享对那个早晨的任何想法。点击以在早晨添加感觉</string>
+    <string name="check_now">立即检查</string>
+    <string name="empty_diary">你没有记录今天的任何计划</string>
+    <string name="horoscope_today">今日星座运势</string>
+    <string name="horoscope_tomorrow">明日星座运势</string>
+    <string name="an_error_has_been_occurred">发生了错误</string>
+    <string name="please_try_again_later">请稍后再试！</string>
+    <string name="aries">白羊座</string>
+    <string name="taurus">金牛座</string>
+    <string name="gemini">双子座</string>
+    <string name="cancer">巨蟹座</string>
+    <string name="leo">狮子座</string>
+    <string name="virgo">处女座</string>
+    <string name="libra">天秤座</string>
+    <string name="scorpio">天蝎座</string>
+    <string name="sagittarius">射手座</string>
+    <string name="capricorn">摩羯座</string>
+    <string name="aquarius">水瓶座</string>
+    <string name="pisces">双鱼座</string>
+    <string name="red">红色</string>
+    <string name="green">绿色</string>
+    <string name="yellow">黄色</string>
+    <string name="white">白色</string>
+    <string name="silver">银色</string>
+    <string name="gold">金色</string>
+    <string name="brown">棕色</string>
+    <string name="pink">粉色</string>
+    <string name="blue">蓝色</string>
+    <string name="black">黑色</string>
+    <string name="purple">紫色</string>
+    <string name="grey">灰色</string>
+    <string name="light_green">浅绿色</string>
+    <string name="reminders">提醒</string>
+    <string name="no_reminders">没有提醒</string>
+    <string name="click_add_reminders_button_to_create_an_alert">点击“添加提醒”按钮创建警报</string>
+    <string name="add_reminders">添加提醒</string>
+    <string name="remind_me_about">提醒我...</string>
+    <string name="date_time"><![CDATA[日期和时间]]></string>
+    <string name="alert_tone">提醒音</string>
+    <string name="repeat_none">不重复</string>
+    <string name="repeat_daily">每天重复</string>
+    <string name="repeat_weekly">每周重复</string>
+    <string name="repeat_monthly">每月重复</string>
+    <string name="repeat_annually">每年重复</string>
+    <string name="repeat_hour">每N小时</string>
+    <string name="repeat_several">每天几次</string>
+    <string name="every_hours">每%1$d小时</string>
+    <string name="times">%1$d次</string>
+    <string name="time_idx">时间%1$d</string>
+    <string name="repeat_cycle">重复周期</string>
+    <string name="reminder_count">提醒次数</string>
+    <string name="edit_reminders">编辑提醒</string>
+    <string name="edit">编辑</string>
+    <string name="close">关闭</string>
+    <string name="do_you_want_to_delete_reminder">你想删除这个提醒吗？</string>
+    <string name="delete_success">删除成功</string>
+    <string name="today_lbl">今天</string>
+    <string name="lucky_color">幸运颜色</string>
+    <string name="lucky_number">幸运号码</string>
+    <string name="date_of_birth">出生日期</string>
+    <string name="gender">性别</string>
+    <string name="female">女性</string>
+    <string name="male">男性</string>
+    <string name="choose_sticker">选择贴纸</string>
+    <string name="notification_policy">通知政策</string>
+
+</resources>

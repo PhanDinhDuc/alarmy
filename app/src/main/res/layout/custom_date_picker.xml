@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.alarm.clock.reminder.alarmclock.simplealarm.view.first_alarm.wheel_picker.WheelPicker
+        android:id="@+id/pickerMonth"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="12dp"
+        app:align="CENTER"
+        app:layout_constraintWidth_percent="0.28"
+        app:fadingEdgeEnabled="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:max="12"
+        app:min="1"
+        app:textSize="36sp"
+        app:wheelItemCount="3"
+        app:wrapSelectorWheel="true" />
+
+    <com.alarm.clock.reminder.alarmclock.simplealarm.view.first_alarm.wheel_picker.WheelPicker
+        android:id="@+id/pickerDay"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        app:align="CENTER"
+        app:layout_constraintWidth_percent="0.22"
+        app:fadingEdgeEnabled="false"
+        app:layout_constraintBottom_toBottomOf="@+id/pickerMonth"
+        app:layout_constraintEnd_toStartOf="@+id/pickerYear"
+        app:layout_constraintStart_toEndOf="@+id/pickerMonth"
+        app:layout_constraintTop_toTopOf="@+id/pickerMonth"
+        app:max="31"
+        app:min="1"
+        app:textSize="36sp"
+        app:wheelItemCount="3"
+        app:wrapSelectorWheel="true" />
+
+    <com.alarm.clock.reminder.alarmclock.simplealarm.view.first_alarm.wheel_picker.WheelPicker
+        android:id="@+id/pickerYear"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        app:align="CENTER"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintWidth_percent="0.36"
+        app:fadingEdgeEnabled="false"
+        app:layout_constraintBottom_toBottomOf="@+id/pickerMonth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/pickerMonth"
+        app:max="3000"
+        app:min="1900"
+        app:textSize="36sp"
+        app:wheelItemCount="3"
+        app:wrapSelectorWheel="false" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#C6C6C9"
+        app:layout_constraintBottom_toBottomOf="@+id/pickerMonth"
+        app:layout_constraintEnd_toEndOf="@+id/pickerMonth"
+        app:layout_constraintStart_toStartOf="@+id/pickerMonth"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.33" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#C6C6C9"
+        app:layout_constraintBottom_toBottomOf="@+id/pickerMonth"
+        app:layout_constraintEnd_toEndOf="@+id/pickerMonth"
+        app:layout_constraintStart_toStartOf="@+id/pickerMonth"
+        app:layout_constraintTop_toTopOf="@+id/pickerMonth"
+        app:layout_constraintVertical_bias="0.69" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#C6C6C9"
+        app:layout_constraintBottom_toBottomOf="@+id/pickerMonth"
+        app:layout_constraintEnd_toEndOf="@+id/pickerDay"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/pickerDay"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32" />
+
+    <View
+
+        android:id="@+id/view4"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#C6C6C9"
+        app:layout_constraintBottom_toBottomOf="@+id/pickerMonth"
+        app:layout_constraintEnd_toEndOf="@+id/pickerDay"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/pickerDay"
+        app:layout_constraintTop_toTopOf="@+id/pickerMonth"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <View
+        android:id="@+id/line_1"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#C6C6C9"
+        app:layout_constraintBottom_toBottomOf="@+id/pickerMonth"
+        app:layout_constraintEnd_toEndOf="@+id/pickerYear"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/pickerYear"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32" />
+
+    <View
+        android:id="@+id/line_2"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#C6C6C9"
+        app:layout_constraintBottom_toBottomOf="@+id/pickerMonth"
+        app:layout_constraintEnd_toEndOf="@+id/pickerYear"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/pickerYear"
+        app:layout_constraintTop_toTopOf="@+id/pickerMonth"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtMonth"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:maxLength="2"
+        android:paddingBottom="10dp"
+        android:text="9"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="47sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="@+id/pickerMonth"
+        app:layout_constraintStart_toStartOf="@+id/pickerMonth"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtDay"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:maxLength="2"
+        android:paddingBottom="11dp"
+        android:text="9"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="47sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/view4"
+        app:layout_constraintEnd_toEndOf="@+id/pickerDay"
+        app:layout_constraintStart_toStartOf="@+id/pickerDay"
+        app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtYear"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:maxLength="4"
+        android:paddingBottom="11dp"
+        android:text="2023"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="47sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/view4"
+        app:layout_constraintEnd_toEndOf="@+id/pickerYear"
+        app:layout_constraintStart_toStartOf="@+id/pickerYear"
+        app:layout_constraintTop_toBottomOf="@+id/view5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bar_width2">1dp</dimen>
+    <dimen name="effect_border_width">2dp</dimen>
+    <dimen name="margin15dp">15dp</dimen>
+    <dimen name="track_switch">20dp</dimen>
+    <dimen name="match_constraint">0dp</dimen>
+    <!-- Text -->
+    <!-- Gradient -->
+    <!-- Fab -->
+    <dimen name="fab.medium.stroke">6dp</dimen>
+    <!-- Radius -->
+    <!-- Button -->
+</resources>

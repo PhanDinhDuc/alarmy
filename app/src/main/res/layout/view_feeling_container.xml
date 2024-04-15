@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/feelingContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_feeling_input_sellect"
+    app:layout_constraintTop_toBottomOf="@id/imageView19">
+
+    <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+        android:id="@+id/tvFeelingDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:text="8/22/2023"
+        android:textColor="#1A1C28"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvFeeling"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgFeeling"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.BaseTextview
+        android:id="@+id/tvFeeling"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:text="Calm down"
+        android:textColor="#1A1C28"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgFeeling"
+        app:layout_constraintTop_toBottomOf="@+id/tvFeelingDate" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgFeeling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@drawable/bg_feeling_input"
+        android:clickable="false"
+        android:focusable="false"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="10dp"
+        android:src="@drawable/ic_tired"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </androidx.appcompat.widget.AppCompatImageView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

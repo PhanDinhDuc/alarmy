@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background"
+    android:animateLayoutChanges="true">
+
+    <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.HeaderView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cs_title="@string/diary_of_the_day_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title_gravity="center" />
+
+    <com.alarm.clock.reminder.alarmclock.simplealarm.resource.customView.HeaderView
+        android:id="@+id/headerdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cs_title="@string/diary_of_the_day_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header"
+        app:right_action_type="image"
+        app:src_left="@drawable/ic_view_previous"
+        app:src_right="@drawable/ic_view_next"
+        app:title_gravity="center" />
+
+    <FrameLayout
+        android:id="@+id/weakDayView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="4dp"
+        app:layout_constraintTop_toBottomOf="@id/headerdate">
+
+        <include
+            android:id="@+id/legendLayout"
+            layout="@layout/calendar_day_legend_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp" />
+    </FrameLayout>
+
+    <com.kizitonwose.calendar.view.WeekCalendarView
+        android:id="@+id/exOneWeekCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="4dp"
+        app:cv_dayViewResource="@layout/example_1_calendar_day"
+        app:layout_constraintTop_toBottomOf="@id/weakDayView" />
+
+    <FrameLayout
+        android:id="@+id/indicatorView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintTop_toBottomOf="@id/exOneWeekCalendar">
+
+        <include
+            android:id="@+id/indicator"
+            layout="@layout/view_buble_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/dataContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="-2dp"
+        app:layout_constraintTop_toBottomOf="@id/indicatorView">
+
+        <include
+            android:id="@+id/diary"
+            layout="@layout/view_diary_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/feeling"
+            layout="@layout/view_feeling_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/viewEmpty"
+            layout="@layout/view_calendar_empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible" />
+    </FrameLayout>
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/groupData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:constraint_referenced_ids="dataContainer, indicatorView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
